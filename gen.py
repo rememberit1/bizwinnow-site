@@ -18,7 +18,7 @@ SV=[ # key,title,who,price html,short blurb,mail subject
 ('real_estate','MLS Virtual Staging &amp; Listing Reels','Real estate agents and brokerages','From $99&ndash;$249 per listing pack<br><span style="font-weight:400;font-size:.9rem">Monthly brokerage retainer available.</span>','Furnished-looking listing photos and a short vertical reel, delivered as one pack.','Free sample: MLS virtual staging'),
 ('staffing','Candidate Shortlists &amp; Resume Tailoring','Boutique tech staffing agencies','From $300&ndash;$500 per shortlist<br><span style="font-weight:400;font-size:.9rem">Or a monthly sourcing seat.</span>','Three matched candidates per open req, with resumes tailored to the job.','Free sample: candidate shortlist'),
 ('podcast_and_newsletter','Podcast &amp; Newsletter Sponsor / Guest Matchmaking','B2B creators, podcast hosts, newsletter writers and founders','20&ndash;30% commission on sponsorship deals<br><span style="font-weight:400;font-size:.9rem">Or $1,000&ndash;$2,500/mo for guest booking.</span>','Sponsors and guest spots found, pitched and packaged with a media kit.','Free sample: sponsor or guest matchmaking'),
-('shopify','Checkout &amp; Email Retention Teardowns','Shopify and DTC brands','From $1,000&ndash;$3,000 setup<br><span style="font-weight:400;font-size:.9rem">Plus monthly management.</span>','A teardown of your emails and product pages, with copy ready to paste in.','Free sample: email retention teardown'),
+('shopify','Checkout &amp; Email Retention Teardowns','Shopify and DTC brands','From $300&ndash;$1,000 setup<br><span style="font-weight:400;font-size:.9rem">Plus monthly management.</span>','A teardown of your emails and product pages, with copy ready to paste in.','Free sample: email retention teardown'),
 ]
 SVD={s[0]:s for s in SV}
 NAVL=[('govcon','GovCon'),('real_estate','Real estate'),('staffing','Staffing'),('podcast_and_newsletter','Podcast &amp; newsletter'),('shopify','Shopify')]
@@ -208,7 +208,7 @@ P['/shopify']=svc_page('shopify','For Shopify &amp; DTC brands',
   ('Prioritized fix list','The changes most likely to matter first, so you know where to start.'),
   ('Monthly management','After setup, ongoing management of your flows if you want it.')],
  [('Send your store','Email your store link and forward your welcome and cart emails.'),('Free sample','We send a short teardown of one email so you can judge the depth.'),('Full teardown','The full audit and rewritten copy arrive by email.'),('You implement or we manage','Paste the copy in yourself, or add monthly management.')],
- price1('$1,000&ndash;$3,000 <span style="font-size:1rem;font-weight:600;color:var(--mu);-webkit-text-fill-color:var(--mu)">setup</span>','<p style="margin:0">Plus monthly management.</p>',
+ price1('$300&ndash;$1,000 <span style="font-size:1rem;font-weight:600;color:var(--mu);-webkit-text-fill-color:var(--mu)">setup</span>','<p style="margin:0">Plus monthly management.</p>',
   ul(['Setup covers the teardown and the rewritten copy.','Monthly management is optional and quoted separately.','The first sample is free.'])),
  '<p>An example store teardown showing how findings and rewritten copy are presented.</p>'+pdfs(('/samples/shopify-teardown-sample.pdf','Store teardown PDF')),
  [('Which email platform do you work with?','The copy is written to be pasted into whichever platform you use. Tell us which one when you write.'),
@@ -216,7 +216,7 @@ P['/shopify']=svc_page('shopify','For Shopify &amp; DTC brands',
   ('Is monthly management required?','No. Setup stands alone, and monthly management is an optional add-on.'),
   ('What does the sample cover?','A short teardown of one of your emails, so you can judge the depth before you commit.')],
  'Send us your store','Send your store link and one email and we will return a free sample teardown.',
- 'Email and product page teardowns for Shopify and DTC brands, with paste-ready rewritten copy. From $1,000 to $3,000 setup plus optional monthly management.')
+ 'Email and product page teardowns for Shopify and DTC brands, with paste-ready rewritten copy. From $300 to $1,000 setup plus optional monthly management.')
 
 # ---------- 404
 P['404']=page('Page not found | Business Win Now','Page not found.','',
