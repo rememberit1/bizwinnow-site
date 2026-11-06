@@ -12,16 +12,17 @@ MX={'doi-udall-garage-drywall-140D0427Q0949':('DOI RFQ 140D0427Q0949: Garage Dry
 'treasury-g7-events-2099AB27Q00003':('Treasury RFQ 2099AB27Q00003: G7 Host Year Integrated Event Management (SB)','Quotes due Nov 25, 2026, 10:00 AM ET'),
 'eousa-mdga-court-reporting-15JA0527Q00000009':('EOUSA RFQ 15JA0527Q00000009: Grand Jury/Deposition Court Reporting, USAO MDGA Macon (SB)','Quotes due Dec 2, 2026, 1:00 PM ET'),
 'navfac-earle-pest-N4008527R0009':('NAVFAC RFQ N4008527R0009: Pest Control Support Services, NWS Earle NJ (SB)','Quotes due Nov 24, 2026, 11:00 AM ET'),
-'nswcdd-dna-warehousing-N0017826R2500':('NSWCDD RFQ N0017826R2500: DNA Warehousing Support (SDVOSB)','Quotes due Dec 1, 2026, 12:00 PM ET'),
-'inscom-g2-aces-W50NH926RA028':('Army MICC RFP W50NH9-26-R-A028: INSCOM G-2 ACES (8(a))','Proposals due Nov 18, 2026, 3:00 PM ET'),
-'nhgri-clinical-research-75N98026R00034':('NIH/NHGRI RFQ 75N98026R00034: Clinical Research Support','Quotes due Nov 13, 2026, 12:00 PM ET'),
-'nara-artifact-coordinator-88310327Q00012':('NARA RFQ 88310327Q00012: Artifact Conservation Project Coordinator (SB)','Quotes due Nov 13, 2026, 2:00 PM ET'),
-'va-nca-richmond-janitorial-36C78627Q0023':('VA NCA RFQ 36C78627Q0023: Janitorial Services Richmond National Cemetery (SDVOSB)','Quotes due Nov 23, 2026, 4:00 PM ET'),
-'va-richmond-loading-dock-36C24626Q1099':('VA RFQ 36C24626Q1099: Loading Dock Concrete Repair Richmond VAMC (SDVOSB)','Quotes due Nov 24, 2026, 12:00 PM ET')}
+'nca-salisbury-turf-36C78627Q0021':('VA NCA RFQ 36C78627Q0021: Turf Application Services, Salisbury National Cemetery (SDVOSB)','Quotes due Nov 18, 2026, 4:00 PM ET'),
+'uscg-academy-ballfield-70ZH1526QCGA00003':('USCG RFQ 70ZH1526QCGA00003: Ballfield Maintenance, USCGA Nitchman Field Complex (SB)','Quotes due Nov 18, 2026, 8:00 AM ET'),
+'eousa-wyoming-court-reporting-15JA0527Q00000004':('EOUSA RFQ 15JA0527Q00000004: Grand Jury Court Reporting, USAO District of Wyoming (SB)','Quotes due Nov 27, 2026, 12:00 PM ET'),
+'va-bedford-window-wash-36C24127Q0017':('VA RFQ 36C24127Q0017: Window Washing Services, Bedford Healthcare System (SDVOSB)','Quotes due per Amd 0001 (Nov 2026)'),
+'gsa-stelizabeths-gate7-garage-47PB5126R0038':('GSA Solicitation 47PB5126R0038: Gate 7 Parking Garage, St. Elizabeths West Campus DC','Offers due Nov 23, 2026'),
+'fort-bragg-pressure-wash-W91247-27-Q-A001':('Army RFQ W91247-27-Q-A001: Pressure Washing, Fort Bragg NC (HUBZone)','Quotes due Nov 23, 2026, 10:00 AM ET'),
+}
 import glob as _g
 MP={k:(_g.glob('/workspace/bwn-kit/img/govcon/2026-1*/'+k+'_matrix_q.png') or _g.glob('/workspace/bwn-kit/img/govcon/2026-1*/'+k+'_matrix.png'))[0] for k in MX}
-RX={'minnesota':'3356 Minnesota Ave SE, Washington, DC','16th':'6805 16th St NW, Washington, DC','nicholson14':'14 Nicholson St NW, Washington, DC'}
-CL={'nicholson14','villagegreen1732','nova1630','minnesota','16th'}
+RX={'brandywine':'11309 Brandywine Rd, Clinton, MD','crain':'123 Robert Crain Highway SE, Upper Marlboro, MD','nicholson14':'14 Nicholson St NW, Washington, DC','villagegreen1732':'1732 Village Green Dr #A-17, Landover, MD','nova1630':'1630 Nova Ave, Capitol Heights, MD','minnesota':'3356 Minnesota Ave SE, Washington, DC','16th':'6805 16th St NW, Washington, DC'}
+CL={'nicholson14','villagegreen1732','nova1630','minnesota','16th','brandywine','crain'}
 RD='/workspace/bwn-kit/img/listings/2026-10-30/web/'
 def rpage(k,a): return f"""<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noindex,nofollow"><title>Free photo edit preview | Business Win Now</title>
 <style>body{{font-family:Helvetica,Arial,sans-serif;margin:0;color:#1a1a1a;background:#f4f6fa}}main{{max-width:1200px;margin:0 auto;padding:24px}}h1{{color:#0b2545;font-size:22px}}img{{width:100%;border:1px solid #ccd;background:#fff}}a{{color:#0b2545}}.n{{font-size:13px;color:#555}}</style></head><body><main>
@@ -41,7 +42,7 @@ def mpage(k,t,d): return f"""<!doctype html><html lang=en><head><meta charset=ut
 <p class=n>Starter sample, not a complete matrix. Verify every line against the full solicitation and all amendments. Business Win Now is not affiliated with any government agency.</p>
 <p>Want the full matrix and a first draft of your proposal? <a href="/govcon">See GovCon proposal support</a> or email businesswinnow@gmail.com.</p></main></body></html>"""
 import re as _re
-HX={k:_g.glob('/workspace/bwn-kit/img/govcon/2026-11-0[2-9]/'+k+'_matrix.html') or _g.glob('/workspace/bwn-kit/img/govcon/2026-11-05/'+k+'_matrix.html') for k in MX}
+HX={k:_g.glob('/workspace/bwn-kit/img/govcon/2026-11-*/'+k+'_matrix.html') or _g.glob('/workspace/bwn-kit/img/govcon/2026-11-05/'+k+'_matrix.html') for k in MX}
 HX={k:v[0] for k,v in HX.items() if v}
 MXCSS='.mx{background:#fff;border:1px solid #ccd;padding:12px;overflow-x:auto;font-size:13px}.mx .h{border-bottom:3px solid #c9a227;padding-bottom:6px;margin-bottom:8px}.mx .b{color:#0b2545;font-size:20px;font-weight:bold}.mx table{border-collapse:collapse;width:100%;min-width:900px}.mx th{background:#0b2545;color:#fff;text-align:left;padding:5px}.mx td{border:1px solid #ccd;padding:4px;vertical-align:top}.mx tr:nth-child(even) td{background:#f4f6fa}.mx .n{font-size:11px;color:#555;margin-top:8px}.mx .tag{display:inline-block;background:#c9a227;color:#0b2545;font-weight:bold;padding:1px 6px;border-radius:3px;margin-right:4px}.mx .uv{color:#b00020;font-weight:bold}.mx .wm{text-align:right;margin-top:6px;color:#0b2545;opacity:.35;font-weight:bold}'
 def hpage(k,t,d):
@@ -53,13 +54,14 @@ def cpage(k,a): return rpage(k,a).replace('an AI-edited preview of the same room
 for k,a in RX.items(): PG['/real_estate/samples/'+k]=(cpage if k in CL else rpage)(k,a)
 S='/workspace/bwn-kit/samples/'
 samples=['govcon-draft-technical-approach','real-estate-virtual-staging-sample','staffing-shortlist-sample','newsletter-sponsor-matchmaking-sample','shopify-teardown-sample']
-imgs=['re-before-living','re-after-living','re-before-bed','re-after-bed']
+imgs=['re-before-living','re-after-living','re-before-bed','re-after-bed','re-room-still','re-room-3d-zoom-poster']
 w="const PG="+json.dumps(PG)+";\nconst NF="+json.dumps(NF)+";\n"
 w+="const P="+json.dumps(b('sample-compliance-matrix.pdf'))+";\nconst X="+json.dumps(b('sample-compliance-matrix.xlsx'))+";\n"
 w+="const S={"+",".join(json.dumps(n)+":"+json.dumps(b(S+n+'.pdf')) for n in samples)+"};\n"
 w+="const MI={"+",".join(json.dumps(k)+":"+json.dumps(b(MP[k])) for k in MX if k not in HX)+"};\n"
 w+="const RI={"+",".join(json.dumps(k)+":"+json.dumps(b(_g.glob('/workspace/bwn-kit/img/listings/2026-1*/web/'+k+'.jpg')[0])) for k in RX)+"};\n"
 w+="const I={"+",".join(json.dumps(n)+":"+json.dumps(b('assets/%s.jpg'%n)) for n in imgs)+"};\n"
+w+="const V="+json.dumps(b('assets/re-room-3d-zoom.mp4'))+";\n"
 w+="""function b(s){const r=atob(s),u=new Uint8Array(r.length);for(let i=0;i<r.length;i++)u[i]=r.charCodeAt(i);return u}
 const HT={'content-type':'text/html; charset=utf-8'};
 export default{fetch(req){const u=new URL(req.url);let p=u.pathname;
