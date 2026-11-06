@@ -17,3 +17,4 @@ dist-cache/
 cookies*
 *session*
 .vault*
+preview/
