@@ -95,6 +95,10 @@ re_samples=('<p>The same listing photos before and after virtual staging. These 
  '<figure><img src="/assets/re-before-bed.jpg" alt="Bedroom listing photo before staging" width="1000" height="750"><figcaption>Before: bedroom, as listed</figcaption></figure>'
  '<figure><img src="/assets/re-after-bed.jpg" alt="Same bedroom after virtual staging" width="1000" height="750"><figcaption>After: virtually staged</figcaption></figure></div>'
  '<p class="cap">Sample images start from a public listing photo and are not a client project.</p>'
+ '<h3 class="zoom-heading">One still photo, with depth-based motion</h3><p>The same room as an empty still, then virtually staged with AI-generated furnishings and a short 3D parallax zoom.</p>'
+ '<div class="ba zoom"><figure><img src="/assets/re-room-still.jpg" alt="Before: the empty living room as a still listing photo" width="960" height="600"><figcaption>Before: still photo, as listed</figcaption></figure>'
+ '<figure><video muted autoplay loop playsinline preload="metadata" width="960" height="600" poster="/assets/re-room-3d-zoom-poster.jpg" aria-label="Eight-second depth-based parallax zoom through the same living room, virtually staged with AI-generated furnishings"><source src="/assets/re-room-3d-zoom.mp4" type="video/mp4">Your browser cannot play this sample; the still photo is shown alongside.</video><figcaption>After: virtually staged + 3D zoom video</figcaption></figure></div>'
+ '<p class="cap">The furnishings are AI-generated. The video applies a depth-map camera push-in and parallax motion to the virtually staged photo. The motion is a rendered perspective effect, not a full 3D room scan.</p>'
  +pdfs(('/samples/real-estate-virtual-staging-sample.pdf','Virtual staging PDF')))
 P['/real_estate']=svc_page('real_estate','For listing agents &amp; brokerages',
  'Empty, dated or awkward rooms photograph poorly and get scrolled past. We restyle the photos you already have and cut them into a short vertical clip, so the listing looks furnished and ready to post.',
@@ -111,7 +115,7 @@ P['/real_estate']=svc_page('real_estate','For listing agents &amp; brokerages',
   ul(['Where you land in the range depends on how many rooms are staged and whether the reel is included.','Your first sample is free, and the full quote is given up front.','Rooms that are already furnished gain little, so we recommend staging the empty or dated ones.'])),
  re_samples,
  [('Is virtual staging allowed on the MLS?','Rules differ by MLS and brokerage. Label staged images as virtually staged and keep the original photos available. Check with your MLS if you are unsure.'),
-  ('Do you offer 3D tours?','Not at the moment. The reel is a short pan and zoom across staged photos, which is quick to make and suits social feeds.'),
+  ('Do you offer 3D tours?','Not full walkthrough tours. We can add a depth-based 3D parallax zoom, like the sample above, to a listing reel. It is a perspective video made from a still photo, not a 3D scan.'),
   ('What do you need from me?','The listing link or the original photos. Wide, well-lit shots of empty rooms give the best results.'),
   ('Can a brokerage get a recurring arrangement?','Yes. A monthly retainer is available. Email us how many listings you handle and we will quote it.')],
  'Stage a room from your own listing','Send a listing link and we will restyle one room for free, so you can see it on a real home.',
