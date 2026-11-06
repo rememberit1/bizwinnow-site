@@ -1,0 +1,1299 @@
+GENERAL INFORMATION
+PLACE OF PERFORMANCE
+ADDITIONAL INFORMATION
+DESCRIPTION
+This is a combined synopsis/solicitation for commercial products prepared in accordance with the format in Federal Acquisition Regulation (FAR) subpart 12.2, “Streamlined Procedures for Solicitation, Evaluation, and Award for Acquisition of Commercial Products and Commercial Services. “Commercial Services,” as supplemented with additional information included in this notice. This announcement constitutes only the solicitation; quotes are being requested, and a written solicitation document will not be issued. 
+This is a Request for Quote (RFQ), and the solicitation number is 36C26026Q1017. The Government anticipates awarding five-year firm-fixed price purchase order.
+This is a solicitation for Admin management, Data management, software development (Quality Assurance Inspection Software) Services for the Portland VA Medical Center. The solicitation document and incorporated provisions and clauses are those in effect through Federal Acquisition Circular (FAC) 2025-06 Effective March 13th, 2026. 
+This solicitation is set as set-aside for Service-Disabled Veteran Owned Small business (SDVOSB) and is being Competed as such. The associated North American Industrial Classification System (NAICS) code for this procurement is 541519, with a business size of $34 Million, and the Product Service Code (PSC) is H979.
+The Department of Veterans Affairs, Regional Procurement Office West, Network Contracting Office 20, on behalf of the Portland VA Medical Center, is seeking the following Service and Support in compliance with the included Statement of Work.
+SECTION B - CONTINUATION OF SF 1449 BLOCKS
+B.1  CONTRACT ADMINISTRATION DATA
+  1.  Contract Administration:  All contract administration matters will be handled by the following individuals:
+    a.  CONTRACTOR:  
+    b.  GOVERNMENT:  	Contracting Officer 36C260 
+Network Contracting Office 20
+ATTN: V4CONT
+1601 E. Fourth Plain Blvd
+Bldg.17, Suite B428
+Vancouver WA 98661
+  2.  CONTRACTOR REMITTANCE ADDRESS:  All payments by the Government to the contractor will be made in accordance with:
+  3.  INVOICES:  Invoices shall be submitted in arrears:
+    a.  Quarterly	[]
+    b.  Semi-Annually	[]
+    c.  Other	[X] Upon Delivery and Acceptance 
+  4.  GOVERNMENT INVOICE ADDRESS:  All Invoices from the contractor shall be submitted electronically in accordance with VAAR Clause 852.232-72 Electronic Submission of Payment Requests.
+B.2 Statement of Work (SOW)
+The Department of Veterans Affairs (VA), Veterans Health Administration (VHA), manages the largest medical system in the United States, providing care to over 8.9 million Veterans, employing 180,000 medical personnel and operating 171 hospitals in 18 regions throughout the continental United States., Alaska, Caribbean and Hawaii. The goals of VA Northwest Health Network are to provide the capability of managing operations for all the stations and their business units including Sanitation; Linen/Laundry; Grounds keeping; Waste Management; Pest Control; Inspections; Asset Management; and Cost/Budget Management. The VA Environmental Management Services (EMS) Unified Platform Software-as-a-Service (SaaS) system is projected to have approximately 20 users of the service in some form of administrative capacity.
+SCOPE OF WORK
+1.1 Contractor shall provide all labor, materials, tools and equipment, training, maintenance, technical support, travel, project management and supervision required to provide access and support to a Single comprehensive, Environmental Management Services (EMS) Software-as-a-Service (SaaS) system.
+PERFORMANCE PERIOD
+2.1 The Period of Performance (POP) shall be a Base Year Period of (1) year with the Governments option to extend the contract for four (4) 12-month option periods. Base Year Coverage shall not begin until the “Go Live” date commences. Government may exercise the option for additional licenses for additional modules. Any work at the Government site shall not take place on Federal holidays or weekends unless directed by the Contracting Officer (CO).
+PLACE OF PERFORMANCE
+Tasks shall be performed at Contractor facilities while training shall be conducted at Government facilities.
+NATIONAL HOLIDAYS OBSERVED BY THE GOVERNMENT
+New Year’s Day					January 1st
+Martin Luther King’s Birthday			3rd Monday in January
+Presidents Day					Last Monday in February
+Memorial Day					Monday in May
+Juneteenth					June 19th
+Independence Day				July 4
+Labor Day						1st Monday in September
+Columbus Day					2nd Monday in October
+Veterans Day					November 11th
+Thanksgiving Day					4th Thursday in November
+Christmas Day					December 25th
+The President of the United States of America may declare additional days as a federal holiday, and if so, this holiday will automatically be added to the list above. When a holiday falls on a Sunday, the following Monday shall be observed as a Federal holiday. When a holiday falls on a Saturday, the preceding Friday shall be observed as a Federal Holiday.
+Performance Goals
+Contractor shall provide necessary resources for record integration to help the government load up to two (2) years of EMS records from the facility. Data to be provided by the government and will come in various formats including, words document, spreadsheets, electronic forms and others. Vendor is not responsible for missing data but will work with the Point of Contact (POC) for data fallouts.
+Contractor shall report and provide the Point of Contact (POC) with Deliverable Reports in electronic form in Microsoft Word formats. The report shall include detailed instructions/explanations for each milestone accomplished through and up to project completion. These reports shall reflect information as of the last day of the preceding period.
+Progress Reports shall cover all work completed during the reporting period and work planned for the subsequent reporting period. The report shall also identify any problems that arose and a description of how the problems were resolved. If problems have not been completely resolved, Contractor shall provide an explanation including their plan and timeframe for resolving the issue.
+Contractor shall monitor performance against deliverables and report any deviations and keep in communication with VA accordingly so that issues that arise are transparent to both parties to prevent escalation of outstanding issues.
+SYSTEM ADMINISTRATION
+Contractor shall provide maintenance and support services as further defined herein.
+Upon completion of the installation, training, final acceptance testing, Contractor shall provide all maintenance and support services to ensure that the SaaS Environmental Management Servies (EMS) Software System continues to function 99.0% of the time 24 hours per day 365 days per year. “System Availability” shall not include any minutes of downtime resulting from:
+Scheduled maintenance pre-approved by the VA,
+Events of force majeure,
+Malicious attacks on the system
+Issues associated with VA’s computing devices, local area networks or internet service provider connections, or
+Contractor’s inability to deliver services because of VA’s acts or omissions.
+All new software versions shall be covered in the maintenance services, including all subsequent versions designed to replace the version installed under this contract.
+Maintenance and systems support (Tier II Help Desk) shall be provided during the entire contract period as well as during any contract authorized option extension periods.
+Contractor shall distribute maintenance notification updates or releases by using appropriate electronic or printed media to the POC.
+Sixty (60) days prior to the expiration of each contact period Contractor shall validate that the system’s user information for inspectors and users is accurate as of that date. Contractor shall:
+Compile a list of valid users and delete users that no longer have a valid email address;
+Coordinate the list with the POC;
+Update the coordinated list and that number is used to true-up the number of users utilized for computation of any license for the upcoming option year of the contract.
+SYSTEM AND ACCEPTANCE PLAN
+6.1 A system testing and acceptance plan shall be submitted to POC for review and approval within 5 days after the contract is awarded. The plan must test the functionality of the software, connectivity and operational readiness of users. Government will provide test cases designed to stress the system capabilities. Any problems must be identified and be corrected by Contractor before the system can be re-tested. The system must pass the testing and be accepted prior to invoicing. As a minimum, Contractor shall include and execute the following in the acceptance test plan:
+Phase One testing shall demonstrate each facility’s interface/access and verify conductivity and that there is no degradation to the system response.
+Phase Two testing shall demonstrate the analytical data input, extraction and reporting capability of the SaaS Environmental Management Services (EMS) Software System.
+Phase Three testing shall demonstrate end-to-end functionality of SaaS Environmental Management Services (EMS) Software System.
+DELIVERABLE
+System Testing and Acceptance Plan	
+EMERGENCY OPERATIONS
+Contractor shall possess and keep current and test disaster recovery and failover capabilities to mitigate the occurrence of hardware and software failure, power outages, and disruptions that may be caused by natural occurrence (such as hurricanes, tornadoes, earthquakes, etc.). Contractors shall provide remote location system roll over function of the system and backup of all software and data.
+HELP DESK SUPPORT
+Government will provide Tier I (Basic) user support affiliated with basic system functions (administrator assignments/accounts, system/site/location hierarchy maintenance, etc.). Contractor shall provide Tier II (Advanced) Help Desk support to government users, of all aspects of the service purchased under this contract.
+Contractor shall provide Tier 2 Help Desk support via phone, email and/or chat accessible to government users from Monday through Friday between the hours of 8:00am Pacific Time and 6:00pm Pacific Time, excluding federal holidays. Help Desk support shall be available 24/7 during times of National Crisis either man-made or natural to support the Nation Response Framework Plan. 
+10 LICENSES
+	10.1 Contractor shall provide Licenses to 10 initial users to access an Environmental Management Services (EMS) Software-as-a-Service (SaaS) system. This solution shall offer management functionality to streamline, standardize, as well as an innovative approach that helps the EMS team.
+SOFTWARE MAPPING
+11.1 Government will accept only a Commercial Off-The-Shelf (COTS) SaaS Environmental Management Services (EMS) Software system. The system can be configurable to make it fully operational. Systems requiring development, customization or modifications to make the software operational is not desired
+and will not be accepted. Contractor’s system must support mapping of the software to a government provided complex organizational structure that includes varying user access and permissions. Must uniquely identify and authenticate organizational users and associate that unique identification with processes acting on behalf of those users. System must implement multi-factor authentication for access to the system and implement replay-resistant authentication mechanisms for access. Must obscure feedback of authentication information during the authentication process to protect the information from possible exploitation and use by unauthorized individuals. The software must be delivered and fully operational at contract award.
+Contractor shall include unlimited, non-exclusive software and interface site licenses for all products/services to include license and training for individual facilities defined by the Government.
+UPGRADES AND ENHANCEMENTS TO SOFTWARE
+Contractor shall update all software and supporting electronic literature and software updates as implemented, limiting the days and times the system is not available for use by scheduling updates during non-working days and hours as feasible.
+Within 30 days after release, Contractor shall provide the latest upgrades/version changes/updates, enhancements and corrections to the SaaS Environmental Management Services (EMS) Software System. Upgrades/version changes are defined as software improvements to the already existing software. Contractor shall provide updates that are:
+Initiated by the software publisher to improve functionality of the SaaS Environmental Management System (EMS) Software System.
+To maintain the SaaS Environmental Management System (EMS) Software System compliant with new regulatory requirements.
+INITIAL USER TRAINING
+13.1 Prior to the “go-live” date, Contractor shall provide on-site and web-based technical, end-user training on the use and operations of the software in accordance with (IAW) Contractor’s Integrated Master Schedule. Final dates and times for all training at each location shall be agreed upon between Contractor
+and the POC. Contractor shall provide the POC with an electronic list of persons who attended each training event.
+Initial training.
+i. Classroom based training. Contractor shall provide a minimum of one (1) instructor to provide training to users on-site at each facility. Classes shall each be approximately one (1) day in length or a portion thereof. Breaks shall be scheduled every two (2) hours, and a lunch break must be incorporated into the schedule. Total number of users to be trained is determined by how many licenses is acquired. Government will provide the final number of personnel to be trained to Contractor at time of kick of meeting.
+ii. Objectives for user training. The following are minimum topics to be covered during training. Contractor shall provide training sufficient for users to utilize the system in the performance of their jobs. As a minimum, after training users shall be able to demonstrate proficiency in:
+Assigning access to facility staff.
+Completion of relevant unit level forms.
+Entering inspection findings.
+Generating different reports.
+Managing unit level spending and budget controls.
+Initiate project management
+Contractor shall evaluate the proficiency of students by requiring each student to demonstrate standard practical system functions. Students identified as requiring remedial instruction shall be provided one-on-one instruction in areas where a weakness was demonstrated. At Contractor’s option the instruction may be face-to-face, via the web or other method to address the weakness.
+13.2 Each location will provide a training room with computers capable of accessing the web. To not delay training Contractor shall coordinate with POC to test each training center’s computer’s access to the Environmental Management Services (EMS) Software System before class begins.	
+TRAVEL COST
+The Government anticipates travel under this effort to perform the tasks associated with the effort, as well as to conduct training throughout the period of performance (POP). Include all estimated travel costs in your firm-fixed price line items. These costs will not be directly reimbursed by the Government.
+SOFTWARE LICENSE, MAINTENANCE AND TECHNICAL SUPPORT
+Definitions.
+Licensee. The term “licensee” shall mean the U.S. Department of Veterans Affairs (“VA”) and is synonymous with “Government.”
+Licensor. The term “licensor” shall mean Contractor having the necessary license or ownership rights to deliver license, software maintenance and support of the computer software being acquired. If Contractor is a reseller and not the Licensor, Contractor remains responsible for performance under this order.
+Software. The term “software” shall mean the licensed computer software product(s) cited in the Schedule of Supplies/Services.
+Maintenance. The term “maintenance” is the process of enhancing and optimizing software, as well as remedying defects. It shall include all new fixes, patches, releases, updates, versions and upgrades, as further defined below.
+Technical Support The term “technical support” refers to the range of services providing assistance for the software via the telephone, email, a website or otherwise.
+Release or update. The term “release” or “update” are terms that refer to a revision of software that contains defect corrections, minor enhancements or improvements of the software’s functionality. This is usually designated by a change in the number to the right of the decimal point.
+Version or Upgrade. The term “version” or “upgrade” are terms that refer to a revision of software that contains new or improved functionality. This usually is designated by a change in the number to the left of the decimal point.
+Software License
+Unless otherwise stated in the Schedule of Supplies/Services, the Statement of Work (SOW) or Product Description, the software license provided to the Government is a Software as a Service (SaaS, non-exclusive license to use the software.
+All limitations of software usage are expressly stated in the Schedule of Supplies/Services and the product description.
+Software Maintenance and Technical Support
+If the Government desires to continue software maintenance and support beyond the period of performance identified int this contract or order, the Government will issue a separate contract to order for maintenance and support. Conversely, if a contract or order for continuing software maintenance and technical support is not received Contractor is neither authorized not permitted to renew any of the previously furnished services.
+Contractor shall provide software support services, which include periodic updates, enhancements and corrections to the software, and reasonable technical support, all of which are customarily provided by Contractor to its commercial customers so as to cause the software to perform according to its specifications, documentation or demonstrated claims.
+Any telephone support provided by Contractor shall be at no additional cost.
+Contractor shall provide all maintenance services in a timely manner in accordance with Contractor’s customary practice or as defined in the Statement of Work/Product Description. However, prolonged delay (exceeding 2 business days) in resolving software problems will be noted in the Government’s various past performance records on Contractor (e.g., www.pirs.gov).
+If the Government allows the maintenance and support to lapse and subsequently wishes to reinstate it, any reinstatement fee charged shall not exceed the amounts that would have been charged if the Government had not allowed the subscription to lapse.
+Disabling Software Code
+The Government requires delivery of computer software that does not contain any code that will, upon the occurrence or the nonoccurrence of any event, disable the software. Such code includes but is not limited to a computer virus, restrictive key, node lock, time-out or other function, whether implemented by electronic, mechanical, or other means, which limits or hinders the use or access to any computer software based on residency on a specific hardware configuration, frequency, of duration of use, or other limiting criteria. If any such disabling code is present, Contractor agrees to remove such code upon the Government’s request at no extra cost to the Government. Inability of Contractor to remove the disabling software code will be considered an inexcusable delay and a material breach of contract and the Government may exercise its right to terminate for cause. In addition, the Government is permitted to remove the code as it deems appropriate and charge Contractor for consideration for the time and effort expended in removing the code.
+Manuals and Publications
+Upon Government request, Contractor shall furnish the most current version of the user manual and publications for all products/services provided under this contract or order at no cost.
+16 SPECIFIC TASKS AND DELIVERABLES
+	16.1 Reporting Requirements
+Contractor shall provide the POC with Deliverable Reports in electronic form in Microsoft Word formats. The report shall include detailed instructions/explanations for each milestone accomplished through and up to project completion. These reports shall reflect information as of the last day of the preceding period.
+The Progress Reports shall cover all work completed during the reporting period and work planned for the subsequent reporting period. The report shall also identify any problems that arose and a description of how the problems were resolved. If problems have not been completely resolved, Contractor shall provide an explanation including their plan and timeframe for resolving the issue. Contractor shall monitor performance against deliverables and report any deviations. Contractor shall keep in communication with VA accordingly so that issues that arise are transparent to both parties to prevent escalation of outstanding issues.
+Deliverable
+Periodic Progress Report
+17 FUNCTIONAL REQUIREMENTS
+17.1 Environmental Management Services (EMS) Software system shall
+Control EMS operational data (data is encrypted in transit and at rest).
+Allow for documenting operations at the business units level.
+Track Loads, tonnage, usage, deficiencies, labor, types and costs.
+Track projects, tasks, milestones, schedules
+Track assets, locations, part number, model number manufactures, types and asset numbers
+Track cost for labor, utilities, contractors and other expenses
+Track budgets and spending
+Reports (Local, Regional, National)
+Capability to configure standard audit reports generated from operational data.
+Generate user defined ad-hoc reports from operations.
+Capability to generate Dashboard for Performance Measure.
+17.2 Provide EMS Administration Functions 
+Provide multiple levels of access to support all organizational levels (administrator, national, regional, local, Chiefs, etc).
+Maintain historical data.
+Auto-generate analytics and trending to provide continuous operational overview. 
+Store electronic forms and unit data from operations.
+17.3 Access EMS operational data (must implement Denial-of-service Protection)
+Local (VA Medical Center or equivalent)
+Notify appropriate users via on-screen alerts when action needed.
+Allow facility level (local) to use for internal inspections without higher level (regional or national) approval.
+Regional (Veterans Integrated Service Network (VISN) or equivalent)
+Ability to give users access to appropriate personnel at the regional level.
+Allow for report generation and viewing.
+Allow for standardized data aggregation and flow of data 
+National
+Ability to give users access to appropriate personal at the national level.
+Allow for report generation and viewing.
+Allow for standardized data aggregation and flow of data.
+17.4 Host and Maintain EMS records, forms, documents in electronic format for all units (system must be a single tenant deployment model).
+	i.	Be directly tied to supervisory administration inspections.
+ii. 	Update and validate operational processes and inputs and incorporate government defined reports.
+17.5 Provide configurability (must separate user functionality, including user interface services, from system management functionality)
+Government defined focus areas inspection criteria and data management.
+Create custom data forms and inspection checklists or guides.
+Track multiple types of data management forms and inspections/audits simultaneously.
+TECHNOLOGY REQUIREMENTS
+The Environmental Management Services (EMS) Software System shall Meet NIST 800-145 requirements for SaaS and NIST 800-53 REV.3 requirements for Certification and Accreditation.
+Be registered on eMass with current and approved VA authorization to operate (ATO)
+Have a Federal Risk and Authorization Management Program (FedRAMP) id number
+ Be a web based application that shall be fully accessible via standard web browsers with no third party software requirements thus maintaining no administrative client setup and be hosted using secure Federal Risk and Authorization Management Program approved infrastructure.
+Utilize a data security interconnection infrastructure that shall address storage, generating, transmitting, and exchanging data.
+Interfacing with common leading software platforms and operating systems.
+Have the ability to run on virtual server hosted on government network.
+Technical Kickoff Meeting
+Contractor shall hold a technical kickoff meeting within 10 days after contract award. Contractor shall present, for review and approval by the Government, the fully deployed Environmental Management Services (EMS) Software-as-a-Service (SaaS) system. Contractor shall specify dates, locations (can be virtual), agenda (shall be provided to all attendees at least five (5) calendar days prior to the meeting), and meeting minutes (shall be provided to all attendees within three (3) calendar days after the meeting). Contractor shall invite the Contracting Officer (CO), Contract Specialist (CS), Point of Contact (POC), and the VA PM.
+Parking and Speed Limit
+Park only in areas designated by the facility guideline or otherwise directed by Police and Security Service personnel. Contractor shall conform to the speed limit set at each Government facility. Should Contractor personnel receive a citation for parking, speeding or other infraction from VA Security, the offenses will be handled in Federal Court as they are Federal offenses.	
+Invoice and payment
+Contractor shall submit invoices annually at beginning of the period. The invoice must have at a minimum, the contract number, assigned purchase order, assigned obligation number, date order was placed, date order was shipped, and any additional necessary detailed information to identify service rendered. Payment on invoice may be delayed if invoice(s) are not completed properly.
+Rates
+Please submit pricing for a base year with four (4) option years. The pricing shall be all inclusive, to include all Contractor costs, all applicable fees, labor, materials, tools, equipment, licenses, delivery costs and all other services necessary to perform the services as stated herein.
+RECORDS MANAGEMENT LANGUAGE FOR CONTRACTS
+Records management obligations applicability
+This clause applies to all Contractors whose employees create, work with, or otherwise handle Federal records, as defined in Section B, regardless of the medium in which the records exist.
+Definitions
+“Federal records” as defined in 44 U.S.C. 3301, includes all recorded information, regardless of form or characteristics, made or received by a Federal agency under Federal law or in connection with the transaction of public business and preserved or appropriate for preservation by that agency or its legitimate successor as evidence of the organization, functions, policies, decisions, procedures, operations, or other activities of the United States Government or because of the informational value of data in them.
+The term Federal record:
+Includes VA records.
+Does not include personal materials.
+Applies to records created, received, or maintained by Contractors pursuant to their VA contract.
+May include deliverables and documentation associated with deliverables.
+Requirements
+Contractor shall comply with all applicable records management laws and regulations, as well as National Archives and Records Administration (NARA) records policies, including but not limited to the Federal Records Act (44 U.S.C.
+chs. 21, 29, 31, 33), NARA regulations at 36 CFR Chapter XII Subchapter B, and those policies associated with the safeguarding of records covered by the Privacy Act of 1974 (5 U.S.C. 552a). These policies include the preservation of
+all records, regardless of form or characteristics, mode of transmission, or state of completion.
+In accordance with 36 CFR 1222.32, all data created for Government use and delivered to, or falling under the legal control of, the Government are Federal records subject to the provisions of 44 U.S.C. chapters 21,29,31, and 33, the Freedom of Information Act (FOIA) (5 U.S.C. 552), as amended and must be managed and scheduled for disposition only as permitted by statute or regulation.
+In accordance with 36 CFR 1222.32, Contractor shall maintain all records created for Government use or created in the course of performing the contract and/or delivered to, or under the legal control of the Government and must be managed in accordance with Federal law. Electronic records and associated metadata must be accompanied by sufficient technical documentation to permit understanding and use of the records and data.
+VA and its contractors are responsible for preventing the alienation or unauthorized destruction of records, including all forms of mutilation. Records may not be removed from the legal custody of VA or destroyed except for in accordance with the provisions of the agency records schedules and with the written concurrence of the Head of the Contracting Activity. Willful and unlawful destruction, damage or alienation of Federal records is subject to the fines and penalties imposed by 18 U.S.C. 2701. In the event of any unlawful or accidental removal, defacing, alteration, or destruction of records, Contractor must report to VA. The agency must report promptly to NARA in accordance with 36 CFR 1230.
+The Contractor shall immediately notify the appropriate Contracting Officer upon discovery of any inadvertent or unauthorized disclosures of information, data, documentary materials, records or equipment. Disclosure of non-public information is limited to authorized personnel with a need-to-know as described in the [contract vehicle]. The Contractor shall ensure that the appropriate personnel, administrative, technical, and physical safeguards are established to ensure the security and confidentiality of this information, data, documentary material, records and/or equipment is properly protected. The Contractor shall not remove material form Government facilities or systems, or facilities or systems operated or maintained on the Government’s behalf, without the express written permission of the Head of Contracting Activity.  When information data, documentary material, records and/or equipment is no longer required, it shall be returned to VA control or the Contractor must hold it until otherwise directed. Items returned to the Government shall be hand carried, mailed, emailed, or securely electronically transmitted to the Contracting Officer or address prescribed in the (Contract Vehicle). Destruction of records is EXPRESSLY PROHIBITED unless in accordance with Paragraph (4).
+The Contractor is required to obtain the Contracting Officer’s approval prior to engaging in any contractual relationship (sub-contractor) in support of this contract requiring the disclosure of information, documentary material and /or records generated under, or relating to, contracts. The Contractor (and any subcontractor) is required to abide by Government and VA guidance for protecting sensitive, proprietary information, classified, and controlled unclassified information.
+The Contractor shall only use Government IT equipment for purposes specifically tied to or authorized by the contact and in accordance with VA policy. 
+The Contractor shall not create or maintain any records containing any non-public VA information that are not specifically tied to or authorized by the contract.
+The Contractor shall not retain, use, sell, or disseminate copies of any deliverable that contains information covered by the Privacy Act of 1974 or that which is generally protected from public disclosure by an exemption to the Freedom of Information Act.
+The VA owns the rights to all data and records produced as part of this contract. All deliverables under the contract are the property of the U.S. Government for which VA shall have unlimited rights to use, dispose of, or disclose such data contained therein as it determines to be in the public interest. Any Contractor rights in the data or deliverables must be identified as required by FAR 52.227-11 through FAR 52.227-20.
+Training. All Contractor employees assigned to this contract who create, work with, or otherwise handle records are required to take VA-provided records management training. The Contractor is responsible for confirming training has been completed according to agency policies, including initial training and annual or refresher training.
+Flow-down of requirements to subcontractors
+The Contractor shall incorporate the substance of this clause, its terms and requirements including this paragraph, in all subcontracts under this (contract vehicle), and require written subcontractor acknowledgment of same.
+Violation by a subcontractor of any provision set forth in this clause will be attributed to the Contractor.
+B.3 PRICE/COST SCHEDULE
+ITEM INFORMATION
+SECTION C - CONTRACT CLAUSES
+C.1  52.212-4  CONTRACT TERMS AND CONDITIONS—COMMERCIAL PRODUCTS AND COMMERCIAL SERVICES (OCT 2025) (DEVIATION)
+  (a) Definitions. The clause at Federal Acquisition Regulation (FAR) 52.202-1, Definitions, is incorporated by reference.
+  (b) Inspection/Acceptance. The Contractor shall only tender for acceptance those items that conform to the requirements of this contract. The Government reserves the right to inspect or test any supplies or services that have been tendered for acceptance. The Government may require repair or replacement of nonconforming supplies or reperformance of nonconforming services at no increase in contract price. If repair/replacement or reperformance will not correct the defects or is not possible, the Government may seek an equitable price reduction or adequate consideration for acceptance of nonconforming supplies or services.  The Government must exercise its post acceptance rights—
+    (1) Within a reasonable time after the defect was discovered or should have been discovered; and
+    (2) Before any substantial change occurs in the condition of the item, unless the change is due to the defect in the item.
+  (c) Assignment. The Contractor or its assignee may assign its rights to receive payment due as a result of performance of this contract to a bank, trust company, or other financing institution, including any Federal lending agency in accordance with the Assignment of Claims Act (31 U.S.C. 3727). However, when a third party makes payment (e.g., use of the Governmentwide commercial purchase card), the Contractor may not assign its rights to receive payment under this contract.
+  (d) Changes. Changes in the terms and conditions of this contract may be made only by written agreement of the parties.
+  (e) Disputes. This contract is subject to 41 U.S.C. chapter 71, Contract Disputes. Failure of the parties to this contract to reach agreement on any request for equitable adjustment, claim, appeal or action arising under or relating to this contract shall be a dispute to be resolved in accordance with the clause FAR 52.233-1, Disputes, which is incorporated in this contract by reference. The Contractor shall proceed diligently with performance of this contract, pending final resolution of any dispute arising under the contract.
+  (f) Excusable delays. The Contractor shall be liable for default unless nonperformance is caused by an occurrence beyond the reasonable control of the Contractor and without its fault or negligence. Examples of occurrences include acts of God or the public enemy, acts of the Government in either its sovereign or contractual capacity, fires, floods, epidemics, quarantine restrictions, strikes, unusually severe weather, and delays of common carriers. When an excusable delay occurs, the Contractor shall—
+    (1) Notify the Contracting Officer in writing as soon as possible;
+    (2) Remedy the delay as quickly as possible; and
+    (3) Notify the Contracting Officer when the occurrence is over.
+  (g) Invoice. The Government will handle invoices according to the Prompt Payment Act (31 U.S.C. 3903) and 5 CFR part 1315. The Contractor shall submit invoices to the address designated in the contract to receive invoices. An invoice must include the information required by 5 CFR part 1315.9(b).
+  (h) Patent indemnity. The Contractor shall indemnify the Government and its officers, employees, and agents against liability, including costs, for actual or alleged direct or contributory infringement of, or inducement to infringe, any United States or foreign patent, trademark, or copyright, arising out of the performance of this contract, provided the Contractor is reasonably notified of such claims and proceedings.
+  (i) Payment—
+    (1) Items accepted. Payment shall be made for items accepted by the Government that have been delivered to the delivery destinations set forth in this contract.
+    (2) Prompt payment. The Government will make payment in accordance with the Prompt Payment Act (31 U.S.C. 3903) and prompt payment regulations at 5 CFR part 1315.
+    (3) Discount. In connection with any discount offered for early payment, time shall be computed from the date of the invoice. For the purpose of computing the discount earned, payment shall be considered to have been made on the date that appears on the payment check or the specified payment date if an electronic funds transfer payment is made.
+    (4) Overpayments. If the Contractor becomes aware of a duplicate contract financing or invoice payment or that the Government has otherwise overpaid on a contract financing or invoice payment, the Contractor shall—
+      (i) Remit the overpayment amount to the payment office cited in the contract along with a description of the overpayment including the—
+        (A) Circumstances of the overpayment (e.g., duplicate payment, erroneous payment, liquidation errors, date(s) of overpayment);
+        (B) Affected contract number and delivery order number, if applicable;
+        (C) Affected line item or subline item, if applicable;
+        (D) Contractor point of contact; and
+      (ii) Provide a copy of the remittance and supporting documentation to the Contracting Officer.
+    (5) Interest.
+      (i) All amounts that become payable by the Contractor to the Government under this contract shall bear simple interest from the date due until paid unless paid within 30 days of becoming due. The interest rate shall be the interest rate established by the Secretary of the Treasury as provided in 41 U.S.C. 7109, which is applicable to the period in which the amount becomes due, as provided in (i)(6)(v) of this clause, and then at the rate applicable for each six-month period as fixed by the Secretary until the amount is paid.
+      (ii) The Government may issue a demand for payment to the Contractor upon finding a debt is due under the contract.
+      (iii) Final decisions. The Contracting Officer will issue a final decision as required by FAR part 33 if—
+        (A) The Contracting Officer and the Contractor are unable to reach agreement on the existence or amount of a debt within 30 days;
+        (B) The Contractor fails to liquidate a debt previously demanded by the Contracting Officer within the timeline specified in the demand for payment unless the amounts were not repaid because the Contractor has requested an installment payment agreement; or
+        (C) The Contractor requests a deferment of collection on a debt previously demanded by the Contracting Officer (see FAR part 32).
+      (iv) If a demand for payment was previously issued for the debt, the demand for payment included in the final decision shall identify the same due date as the original demand for payment.
+      (v) Amounts shall be due at the earliest of the following dates:
+        (A) The date fixed under this contract.
+        (B) The date of the first written demand for payment, including any demand for payment resulting from a termination for cause.
+      (vi) The interest charge shall be computed for the actual number of calendar days involved beginning on the due date and ending on-
+        (A) The date on which the designated office receives payment from the Contractor;
+        (B) The date of issuance of a Government check to the Contractor from which an amount otherwise payable has been withheld as a credit against the contract debt; or
+        (C) The date on which an amount withheld and applied to the contract debt would otherwise have become payable to the Contractor.
+      (vii) The interest charge made under this clause may be reduced under the procedures for interest credits prescribed in FAR part 32 in effect on the date of this contract.
+  (j) Risk of loss. Unless the contract specifically provides otherwise, risk of loss or damage to the supplies provided under this contract shall remain with the Contractor until, and shall pass to the Government upon—
+    (1) Delivery of the supplies to a carrier, if transportation is f.o.b. origin; or
+    (2) Delivery of the supplies to the Government at the destination specified in the contract, if transportation is f.o.b. destination.
+  (k) Taxes. The contract price includes all applicable Federal, State, and local taxes and duties.
+  (l) Termination for the Government's convenience. The Government reserves the right to terminate this contract, or any part hereof, for its sole convenience. In the event of such termination, the Contractor shall immediately stop all work and shall immediately cause any and all of its suppliers and subcontractors to cease work. Subject to the terms of this contract, the Contractor shall be paid a percentage of the contract price reflecting the percentage of the work performed prior to the notice of termination, plus reasonable charges the Contractor can demonstrate to the satisfaction of the Government using its standard record keeping system, have resulted from the termination. The Contractor shall not be required to comply with the cost accounting standards or contract cost principles for this purpose. This paragraph does not give the Government any right to audit the Contractor's records. The Contractor shall not be paid for any work performed or costs incurred which reasonably could have been avoided.
+  (m) Termination for cause. The Government may terminate this contract, or any part hereof, for cause in the event of any default by the Contractor, or if the Contractor fails to comply with any contract terms and conditions, or fails to provide the Government, upon request, with adequate assurances of future performance. The Government will send a cure notice to the Contractor, unless the reason for the termination is late delivery. In the event of termination for cause, the Government shall not be liable to the Contractor for any amount for supplies or services not accepted, and the Contractor shall be liable to the Government for any and all rights and remedies provided by law. If it is determined that the Government improperly terminated this contract for default, such termination shall be deemed a termination for convenience.
+  (n) Title. Unless specified elsewhere in this contract, title to items furnished under this contract shall pass to the Government upon acceptance, regardless of when or where the Government takes physical possession.
+  (o) Warranty. The Contractor warrants and implies that the items delivered under this contract are merchantable and fit for use for the particular purpose described in this contract.
+  (p) Limitation of liability. Except as otherwise provided by an express warranty, the Contractor will not be liable to the Government for consequential damages resulting from any defect or deficiencies in accepted items.
+  (q) Compliance with laws unique to Government contracts. The Contractor agrees to comply with 31 U.S.C. 1352 relating to limitations on the use of appropriated funds to influence certain Federal contracts; 40 U.S.C. chapter 37, Contract Work Hours and Safety Standards; 41 U.S.C. chapter 87, Kickbacks; 49 U.S.C. 40118, Government-financed air transportation; and 41 U.S.C. chapter 21 relating to procurement integrity.
+  (r) Order of precedence. Any inconsistencies in this solicitation or contract shall be resolved by giving precedence in the following order:
+    (1) The schedule of supplies/services.
+    (2) The Disputes, Payments, Invoice, Compliance with Laws Unique to Government Contracts, and Unauthorized Obligations paragraphs of this clause;
+    (3) Other contract clauses incorporated in the solicitation or contract;
+    (4) Addenda to this solicitation or contract, 
+    (5) Solicitation provisions incorporated in the solicitation.
+    (6) Other paragraphs of this clause.
+    (7) Other documents, exhibits, and attachments; and
+    (8) The specification.
+  (s) Unauthorized obligations.
+    (1) Except as stated in paragraph (s)(2) of this clause, when any supply or service acquired under this contract is subject to any End User License Agreement (EULA), Terms of Service (TOS), or similar legal instrument or agreement, that includes any clause requiring the Government to indemnify the Contractor or any person or entity for damages, costs, fees, or any other loss or liability that would create an Anti-Deficiency Act violation (31 U.S.C. 1341), the following shall govern:
+      (i) Any such clause is unenforceable against the Government.
+      (ii) Neither the Government nor any Government-authorized end user shall be deemed to have agreed to such clause by virtue of it appearing in the EULA, TOS, or similar legal instrument or agreement. If the EULA, TOS, or similar legal instrument or agreement is invoked through an “I agree” click box or other comparable mechanism (e.g., “click-wrap” or “browse-wrap” agreements), execution does not bind the Government or any Government authorized end user to such clause.
+      (iii) Any such clause is deemed to be stricken from the EULA, TOS, or similar legal instrument or agreement.
+    (2) Paragraph (s)(1) of this clause does not apply to indemnification by the Government that is expressly authorized by statute and specifically authorized under applicable agency regulations and procedures.
+  (t) Comptroller General examination of record. This paragraph applies if this contract was awarded using other than sealed bid procedures and is in excess of the simplified acquisition threshold on the date of award of this contract.
+    (1) The Comptroller General of the United States, or an authorized representative of the Comptroller General, shall have access to and right to examine any of the Contractor’s directly pertinent records involving transactions related to this contract.
+    (2) The Contractor shall make available at its offices, at all reasonable times, the records, materials, and other evidence for examination, audit, or reproduction, until 3 years after final payment under this contract or for any shorter period specified in FAR part 4, longer period required by statute, or periods specified in other clauses of this contract. If this contract is completely or partially terminated, the records relating to the work terminated shall be made available for 3 years after any resulting final termination settlement. Records relating to appeals under the disputes clause or to litigation or the settlement of claims arising under or relating to this contract shall be made available until such appeals, litigation, or claims are finally resolved.
+    (3) As used in this clause, records include books, documents, accounting procedures and practices, and other data, regardless of type and regardless of form. This clause does not require the Contractor to create or maintain any record that the Contractor does not maintain in the ordinary course of business or pursuant to a provision of law.
+  (u) Incorporation by reference. The Contractor’s representations and certifications, including those completed electronically via the System for Award Management (SAM), are incorporated by reference into the contract.
+(End of Clause)
+ADDENDUM to FAR 52.212-4 CONTRACT TERMS AND CONDITIONS—COMMERCIAL PRODUCTS AND COMMERCIAL SERVICES
+  Clauses that are incorporated by reference (by Citation Number, Title, and Date), have the same force and effect as if they were given in full text. Upon request, the Contracting Officer will make their full text available.
+  The following clauses are incorporated into 52.212-4 as an addendum to this contract:
+C.2  52.252-2  CLAUSES INCORPORATED BY REFERENCE  (FEB 1998)
+  This contract incorporates one or more clauses by reference, with the same force and effect as if they were given in full text. Upon request, the Contracting Officer will make their full text available. Also, the full text of a clause may be accessed electronically at this/these address(es):
+  https://www.acquisition.gov/browse/index/far 
+  https://www.va.gov/oal/library/vaar/ 
+(End of Clause)
+C.3   SUPPLEMENTAL INSURANCE REQUIREMENTS
+  In accordance with FAR 28.307-2 and FAR 52.228-5, the following minimum coverage shall apply to this contract:
+  (a)  Workers' compensation and employers liability:  Contractors are required to comply with applicable Federal and State workers' compensation and occupational disease statutes.  If occupational diseases are not compensable under those statutes, they shall be covered under the employer's liability section of the insurance policy, except when contract operations are so commingled with a Contractor's commercial operations that it would not be practical to require this coverage.  Employer's liability coverage of at least $100,000 is required, except in States with exclusive or monopolistic funds that do not permit workers' compensation to be written by private carriers.
+  (b)  General Liability: $500,000.00 per occurrences.
+  (c)  Automobile liability: $200,000.00 per person; $500,000.00 per occurrence and $20,000.00 property damage.
+  (d)  The successful bidder must present to the Contracting Officer, prior to award, evidence of general liability insurance without any exclusionary clauses for asbestos that would void the general liability coverage.
+(End of Clause)
+C.4  52.217-8 OPTION TO EXTEND SERVICES (NOV 1999)
+  The Government may require continued performance of any services within the limits and at the rates specified in the contract. These rates may be adjusted only as a result of revisions to prevailing labor rates provided by the Secretary of Labor. The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months. The Contracting Officer may exercise the option by written notice to the Contractor within 30 days.
+(End of Clause)
+C.5  52.217-9 OPTION TO EXTEND THE TERM OF THE CONTRACT (MAR 2000)
+  (a) The Government may extend the term of this contract by written notice to the Contractor within 30 days.; provided that the Government gives the Contractor a preliminary written notice of its intent to extend at least 60 days before the contract expires. The preliminary notice does not commit the Government to an extension.
+  (b) If the Government exercises this option, the extended contract shall be considered to include this option clause.
+  (c) The total duration of this contract, including the exercise of any options under this clause, shall not exceed five (5) years.
+(End of Clause)
+C.6  52.222-42 STATEMENT OF EQUIVALENT RATES FOR FEDERAL HIRES (MAY 2014)
+  In compliance with the Service Contract Labor Standards statute and the regulations of the Secretary of Labor (29 CFR Part 4), this clause identifies the classes of service employees expected to be employed under the contract and states the wages and fringe benefits payable to each if they were employed by the contracting agency subject to the provisions of 5 U.S.C.5341 or 5332.
+This Statement is for Information Only:
+It is not a Wage Determination
+(End of Clause)
+C.7  52.222-90 ADDRESSING DEI DISCRIMINATION BY FEDERAL CONTRACTORS  (DEVIATION APR 2026)
+  (a)Definitions. As used in this clause—
+  Program participation means membership or participation in, or access or admission to: training, mentoring, or leadership development programs; educational opportunities; clubs; associations; or similar opportunities that are sponsored or established by the contractor or subcontractor.
+  Racially discriminatory diversity, equity, and inclusion (DEI) activities means disparate treatment based on race or ethnicity in the recruitment, employment (e.g., hiring, promotions), contracting (e.g., vendor agreements), program participation, or allocation or deployment of an entity's resources.
+  (b) In connection with the performance of work under this contract, the Contractor agrees as follows:
+    (1) The Contractor will not engage in any racially discriminatory DEI activities;
+    (2) The Contractor will furnish all information and reports, including providing access to books, records, and accounts, as required by the Contracting Officer, for purposes of ascertaining compliance with this clause;
+    (3) In the event of the Contractor's or a subcontractor's noncompliance with this clause, this contract may be canceled, terminated, or suspended in whole or in part, and the Contractor or subcontractor may be declared ineligible for further Government contracts;
+    (4) The Contractor will report any subcontractor's known or reasonably knowable conduct that may violate this clause to the Contracting Officer and take any appropriate remedial actions directed by the Contracting Officer; and
+    (5) The Contractor will inform the Contracting Officer if a subcontractor sues the Contractor and the suit puts at issue, in any way, the validity of this clause.
+    (6) The Contractor recognizes that compliance with the requirements of this clause are material to the Government's payment decisions for purposes of 31 U.S.C. 3729(b)(4).
+  (c) The Contractor must include the substance of this clause, including this paragraph (c), in subcontracts at any tier, including those for commercial products and commercial services, except those where the place of delivery or performance is outside the United States.
+(End of Clause)
+C.8  52.240-91  SECURITY PROHIBITIONS AND EXCLUSIONS  (NOV 2025) (DEVIATION)
+  (a) Definitions. As used in this clause—
+  American Security Drone Act-covered foreign entity means an entity included on a list that the Federal Acquisition Security Council (FASC) develops and maintains and publishes in the System for Award Management (SAM) at https://www.sam.gov (section 1822 of Pub. L. 118-31, 41 U.S.C. 3901 note prec.).
+  Backhaul means intermediate links between the core network, or backbone network, and the small subnetworks at the edge of the network (e.g., connecting cell phones/towers to the core telephone network). Backhaul can be wireless (e.g., microwave) or wired (e.g., fiber optic, coaxial cable, Ethernet).
+  Covered application means the social networking service TikTok or any successor application or service developed or provided by ByteDance Limited or an entity owned by ByteDance Limited.
+  Covered article, as defined in 41 U.S.C. 4713(k), means:
+    (1) Information technology, as defined in 40 U.S.C. 11101, including cloud computing services of all types;
+    (2) Telecommunications equipment or telecommunications service, as those terms are defined in section 3 of the Communications Act of 1934 (47 U.S.C. 153);
+    (3) The processing of information on a Federal or non-Federal information system, subject to the requirements of the Controlled Unclassified Information program (see 32 CFR part 2002); or
+    (4) Hardware, systems, devices, software, or services that include embedded or incidental information technology.
+  Covered foreign country means The People’s Republic of China.
+  Covered telecommunications equipment or services means—
+    (1) Telecommunications equipment produced by Huawei Technologies Company or ZTE Corporation (or any subsidiary or affiliate of such entities);
+    (2) For the purpose of public safety, security of Government facilities, physical security surveillance of critical infrastructure, and other national security purposes, video surveillance and telecommunications equipment produced by Hytera Communications Corporation, Hangzhou Hikvision Digital Technology Company, or Dahua Technology Company (or any subsidiary or affiliate of such entities);
+    (3) Telecommunications or video surveillance services provided by such entities or using such equipment; or
+    (4) Telecommunications or video surveillance equipment or services produced or provided by an entity that the Secretary of Defense, in consultation with the Director of National Intelligence or the Director of the Federal Bureau of Investigation, reasonably believes to be an entity owned or controlled by, or otherwise connected to, the government of a covered foreign country.
+  Critical technology means—
+    (1) Defense articles or defense services included on the United States Munitions List set forth in the International Traffic in Arms Regulations under subchapter M of chapter I of title 22, Code of Federal Regulations;
+    (2) Items included on the Commerce Control List set forth in Supplement No. 1 to part 774 of the Export Administration Regulations under subchapter C of chapter VII of title 15, Code of Federal Regulations, and controlled—
+      (i) Pursuant to multilateral regimes, including for reasons relating to national security, chemical and biological weapons proliferation, nuclear nonproliferation, or missile technology; or
+      (ii) For reasons relating to regional stability or surreptitious listening;
+    (3) Specially designed and prepared nuclear equipment, parts and components, materials, software, and technology covered by part 810 of title 10, Code of Federal Regulations (relating to assistance to foreign atomic energy activities);
+    (4) Nuclear facilities, equipment, and material covered by part 110 of title 10, Code of Federal Regulations (relating to export and import of nuclear equipment and material);
+    (5) Select agents and toxins covered by part 331 of title 7, Code of Federal Regulations, part 121 of title 9 of such Code, or part 73 of title 42 of such Code; or
+    (6) Emerging and foundational technologies controlled pursuant to section 1758 of the Export Control Reform Act of 2018 (50 U.S.C. 4817).
+  FASC-prohibited unmanned aircraft system means an unmanned aircraft system manufactured or assembled by an American Security Drone Act—covered foreign entity.
+  FASCSA order means any of the following orders issued under the Federal Acquisition Supply Chain Security Act (FASCSA) requiring removing covered articles from executive agency information systems or excluding one or more named sources or named covered articles from executive agency procurement actions, as described in 41 CFR 201-1.303(d) and (e):
+    (1) The Secretary of Homeland Security may issue FASCSA orders that apply to civilian agencies, to the extent not covered by paragraph (2) or (3) of this definition. This type of FASCSA order may be referred to as a Department of Homeland Security (DHS) FASCSA order.
+    (2) The Secretary of Defense may issue FASCSA orders that apply to the Department of Defense (DoD) and national security systems other than sensitive compartmented information systems. This type of FASCSA order may be referred to as a DoD FASCSA order.
+    (3) The Director of National Intelligence (DNI) may issue FASCSA orders that apply to the intelligence community and sensitive compartmented information systems, to the extent not covered by paragraph (2) of this definition. This type of FASCSA order may be referred to as a DNI FASCSA order.
+  Information technology, as defined in 40 U.S.C. 11101(6)—
+    (1) Means any equipment or interconnected system or subsystem of equipment, used in the automatic acquisition, storage, analysis, evaluation, manipulation, management, movement, control, display, switching, interchange, transmission, or reception of data or information by the executive agency, if the equipment is used by the executive agency directly or is used by a contractor under a contract with the executive agency that requires the use—
+      (i) Of that equipment; or
+      (ii) Of that equipment to a significant extent in the performance of a service or the furnishing of a product;
+    (2) Includes computers, ancillary equipment (including imaging peripherals, input, output, and storage devices necessary for security and surveillance), peripheral equipment designed to be controlled by the central processing unit of a computer, software, firmware and similar procedures, services (including support services), and related resources; but
+    (3) Does not include any equipment acquired by a Federal contractor incidental to a Federal contract.
+  Intelligence community, as defined by 50 U.S.C. 3003(4), means the following—
+    (1) The Office of the Director of National Intelligence;
+    (2) The Central Intelligence Agency;
+    (3) The National Security Agency;
+    (4) The Defense Intelligence Agency;
+    (5) The National Geospatial-Intelligence Agency;
+    (6) The National Reconnaissance Office;
+    (7) Other offices within the Department of Defense for the collection of specialized national intelligence through reconnaissance programs;
+    (8) The intelligence elements of the Army, the Navy, the Air Force, the Marine Corps, the Coast Guard, the Federal Bureau of Investigation, the Drug Enforcement Administration, and the Department of Energy;
+    (9) The Bureau of Intelligence and Research of the Department of State;
+    (10) The Office of Intelligence and Analysis of the Department of the Treasury;
+    (11) The Office of Intelligence and Analysis of the Department of Homeland Security; or
+    (12) Such other elements of any department or agency as may be designated by the President, or designated jointly by the Director of National Intelligence and the head of the department or agency concerned, as an element of the intelligence community.
+  Interconnection arrangement means arrangements governing the physical connection of two or more networks to allow the use of another’s network to hand off traffic where it is ultimately delivered (e.g., connecting a customer of telephone provider A to a customer of telephone company B) or sharing data and other information resources.
+  Kaspersky Lab-covered article means any hardware, software, or service that—
+    (1) Is developed or provided by a Kaspersky Lab-covered entity;
+    (2) Includes any hardware, software, or service developed or provided in whole or in part by a Kaspersky Lab-covered entity; or
+    (3) Contains components using any hardware or software developed in whole or in part by a Kaspersky Lab-covered entity.
+  Kaspersky Lab-covered entity means—
+    (1) Kaspersky Lab;
+    (2) Any successor entity to Kaspersky Lab, including any change in name, e.g., “Kaspersky”;
+    (3) Any entity that controls, is controlled by, or is under common control with Kaspersky Lab; or
+    (4) Any entity of which Kaspersky Lab has a majority ownership.
+  National security system, as defined in 44 U.S.C. 3552, means any information system (including any telecommunications system) used or operated by an agency or by a contractor of an agency, or other organization on behalf of an agency—
+    (1) The function, operation, or use of which involves intelligence activities; involves cryptologic activities related to national security; involves command and control of military forces; involves equipment that is an integral part of a weapon or weapons system; or is critical to the direct fulfillment of military or intelligence missions, but does not include a system that is to be used for routine administrative and business applications (including payroll, finance, logistics, and personnel management applications); or
+    (2) Is protected at all times by procedures established for information that have been specifically authorized under criteria established by an Executive order or an Act of Congress to be kept classified in the interest of national defense or foreign policy.
+  Roaming means cellular communications services (e.g., voice, video, data) received from a visited network when unable to connect to the facilities of the home network either because signal coverage is too weak or because traffic is too high.
+  Sensitive compartmented information means classified information concerning or derived from intelligence sources, methods, or analytical processes, which is required to be handled within formal access control systems established by the Director of National Intelligence.
+  Sensitive compartmented information system means a national security system authorized to process or store sensitive compartmented information.
+  Source means a non-Federal supplier, or potential supplier, of products or services, at any tier.
+  Subsidiary means an entity in which more than 50 percent of the entity is owned directly by a parent corporation or through another subsidiary of a parent corporation.
+  Substantial or essential component means any component necessary for the proper function or performance of a piece of equipment, system, or service.
+  Unmanned aircraft means an aircraft that is operated without the possibility of direct human intervention from within or on the aircraft (49 U.S.C. 44801(11)).
+  Unmanned aircraft system means an unmanned aircraft and associated elements (including communication links and the components that control the unmanned aircraft) that are required for the operator to operate safely and efficiently in the national airspace system (49 U.S.C. 44801(12)).
+  (b) Prohibitions on providing or using specific products or services in performance of contract. Unless a waiver or exception applies, the Contractor is prohibited from providing any products or services to the Government or using in the performance of the contract any of the following:
+    (1) A covered application on any information technology owned or managed by the Government, or on any information technology used or provided by the Contractor under this contract, including equipment provided by the Contractor’s employees (section 102 of Division R of the Consolidated Appropriations Act, 2023 (Pub. L. 117-328));
+    (2) A Kaspersky Lab-covered article (Section 1634 of Division A of the National Defense Authorization Act for Fiscal Year 2018 (Pub. L. 115-91));
+    (3) Covered telecommunications equipment or services used as a substantial or essential component of any system, or as critical technology as part of any system (paragraphs (a)(1)(A) of section 889 of the John S. McCain National Defense Authorization Act for Fiscal Year 2019 (Pub. L. 115-232)). This does not prohibit contractors from providing—
+      (i) A service that connects to the facilities of a third-party, such as backhaul, roaming, or interconnection arrangements; or
+      (ii) Telecommunications equipment that cannot route or redirect user data traffic or cannot permit visibility into any user data or packets that such equipment transmits or otherwise handles.
+  (c) Prohibition on unmanned aircraft systems manufactured or assembled by American Security Drone Act—covered foreign entities.
+    (1) Prohibition. The Contractor is prohibited from—
+      (i) Delivering any FASC-prohibited unmanned aircraft system, which includes unmanned aircraft (i.e., drones) and associated elements (sections 1823 and 1826 of American Security Drone Act of 2023, within the National Defense Authorization Act for Fiscal Year 2024, Pub. L. 118-31, Div. A, Title XVIII, Subtitle B, 41 U.S.C. 3901 note prec.);
+      (ii) On or after December 22, 2025, operating a FASC-prohibited unmanned aircraft system in the performance of the contract (section 1824 of Pub. L. 118-31); and
+      (iii) On or after December 22, 2025, using Federal funds to procure or operate a FASC-prohibited unmanned aircraft system (section 1825 of Pub. L. 118-31).
+    (2) Procedures. The Contractor shall search SAM for the FASC-maintained list of American Security Drone Act—covered foreign entities before proposing, or using in performance of the contract, any unmanned aircraft system. Also, the Contractor shall ensure any effort or expenditure associated with a FASC-prohibited unmanned aircraft system is consistent with a corresponding exemption, exception, or waiver determination expressly stated in the contract.
+    (3) Exemptions, exceptions, and waivers. The prohibitions in paragraph (c) of this clause do not apply where the agency has determined an exemption, exception, or waiver applies, and the contract indicates that such a determination has been made. See sections 1823 through 1825 and 1832 of Public Law 118-31 for statutory requirements pertaining to exemptions, exceptions, and waivers.
+  (d) Prohibition on using or providing specific products or services or conducting certain transactions regardless of connection to contract.
+    (1) Certain telecommunications and video surveillance equipment, systems, or services.
+      (i) Unless an applicable waiver has been issued by the Government, the Contractor cannot use any equipment, systems, or services that uses covered telecommunications equipment or services as a substantial or essential component of any system, or as critical technology as part of any system (paragraph (a)(1)(B) of section 889 of the John S. McCain National Defense Authorization Act for Fiscal Year 2019 (Pub. L. 115-232)).
+      (ii) This prohibition applies to using covered telecommunications equipment or services, regardless of whether that use is in performance of work under a Federal contract. This does not prohibit the contractor from using—
+        (A) A service that connects to the facilities of a third party, such as backhaul, roaming, or interconnection arrangements; or
+        (B) Telecommunications equipment that cannot route or redirect user data traffic or cannot permit visibility into any user data or packets that such equipment transmits or otherwise handles.
+    (2) Office of Foreign Assets Control Restrictions.
+      (i) Except as authorized by the Office of Foreign Assets Control (OFAC) in the Department of the Treasury, the Contractor shall not acquire, for use in the performance of this contract, any supplies or services if any proclamation, Executive order, or statute administered by OFAC, or if OFAC’s implementing regulations at 31 CFR chapter V, would prohibit such a transaction by a person subject to the jurisdiction of the United States.
+      (ii) Except as authorized by OFAC, most transactions involving Cuba, Iran, and Sudan are prohibited, as are most imports from Burma or North Korea, into the United States or its outlying areas.
+        (A) For lists of entities and individuals subject to economic sanctions, see OFAC’s List of Specially Designated Nationals and Blocked Persons at https://home.treasury.gov/policy-issues/financial-sanctions/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists.
+        (B) For more information about these restrictions, as well as updates, see OFAC’s regulations at 31 CFR chapter V and at https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information.
+        (C) To conduct electronic screens of potential parties to regulated transactions, see the consolidated screening list at https://www.trade.gov/consolidated-screening-list, which consolidates multiple export screening lists of the Departments of Commerce, State, and the Treasury.
+    (3) Sudan prohibition. The Contractor is prohibited from conducting any restricted business operations in Sudan in accordance with Accountability and Divestment Act of 2007 (Pub. L. 110-174).
+    (4) Iran prohibitions.
+      (i) Unless an exception applies according to paragraph (d)(4)(iii) or the Government grants a waiver, the contractor shall not engage in certain activities or transactions relating to Iran (section 6(b)(1)(A) of Iran Sanctions Act (50 U.S.C. 1701 note).
+      (ii) Unless an exception applies according to paragraph (d)(4)(iii) or the Government grants a waiver, contractor shall not export certain sensitive technology to Iran, as determined by the President, and has an active exclusion in SAM (22 U.S.C. 8515).
+      (iii) The prohibition in paragraphs (d)(4)(i) and (d)(4)(ii) do not apply if the acquisition is subject to trade agreements and the offeror certifies that all the offered products are designated country end products or designated country construction material (see part 25).
+      (iv) Unless an exception applies or the Government grants a waiver, contractors are prohibited from knowingly engaging in any significant transaction (i.e., over $15,000) with Iran’s Revolutionary Guard Corps or any of its officials, agents, or affiliates, the property and interests in property of which are blocked according to the International Emergency Economic Powers Act (section 6(b)(1)(B) of Iran Sanctions Act (50 U.S.C. 1701 note)).
+  (e) Governmentwide exclusion and removal orders.
+    (1) Unless the Government has issued an applicable waiver, contractors shall not provide or use as part of the performance of the contract any covered article, or any products or services produced or provided by a source, if the covered article or the source is prohibited by an applicable FASCSA order as follows:
+      (i) For solicitations and contracts awarded by a Department of Defense contracting office, DoD FASCSA orders apply.
+      (ii) For all other solicitations and contracts, DHS FASCSA orders apply.
+    (2) The Contractor shall search for the phrase “FASCSA order” in the System for Award Management (SAM) at https://www.sam.gov to locate applicable FASCSA orders.
+    (3) The Government may identify in the solicitation other FASCSA orders that are not in SAM, which are effective and apply to the solicitation and resulting contract.
+    (4) A FASCSA order issued after the date of solicitation applies to this contract only if added by an amendment to the solicitation or modification to the contract (see FAR 40.204-1(c)).
+  (f)Reasonable inquiry. The contractor shall conduct a reasonable inquiry to determine if there are any prohibited products or services. The inquiry will look at any information in the entity’s possession but does not need to include an internal or third-party audit.
+  (g) Removal of prohibited products and services. For Federal Supply Schedules, Governmentwide acquisition contracts, multi-agency contracts or any other procurement instrument intended for use by multiple agencies, upon notification from the Contracting Officer, during the performance of the contract, the Contractor shall promptly make any necessary changes or modifications to remove any product or service produced or provided by a source that this clause prohibits.
+  (h) General report.
+    (1) If the Contractor identifies or is notified by any source, (including a subcontractor at any tier), that any product or service provided or used (or to be provided or used) during contract performance does not comply with any prohibition in this clause, then the Contractor shall report the following information, or as much information is known, in writing to the contracting office as identified in paragraph (h)(2) within 72 hours:
+      (i) Contract number and order number, if applicable;
+      (ii) The specific prohibition the product or service is not complying with;
+      (iii) A description of the products or services that the Contractor identifies or has reason to suspect is prohibited (include brand; model number, such as the original equipment manufacturer (OEM) number, manufacturer part number, or wholesaler number; and item description, as applicable);
+      (iv) The entity that produced the product or service (include entity name, unique entity identifier, Contractor and Government Entity (CAGE) code, facilities responsible for design, fabrication, assembly, packaging, and test of the product, and whether the entity was the OEM or a distributor (provide manufacturer codes and distributor codes used for the product));
+      (v) Description of the functionality of the product or service and how that functionality impacts the risk to the product or service;
+      (vi) An explanation of any factors relevant to determining if the product or service should be permitted by an applicable exception, exemption, or waiver (if the contractor would like the Government to consider a waiver, and asks for such a waiver);
+      (vii) Whether alternative products or services are available that would comply with the prohibition;
+      (viii) If the product or service is related to item maintenance, include the following information on the item being maintained:
+        (A) Brand;
+        (B) Model number, OEM number, manufacturer part number, or wholesaler number; and
+        (C) Item description, as applicable.
+      (ix) Any readily available information about mitigation actions implemented or recommended.
+    (2) If a report must be submitted to a contracting office, the Contractor shall submit the report as follows:
+      (i) If a Department of Defense contracting office, the Contractor shall report to the website at https://dibnet.dod.mil.
+      (ii) For all other contracting offices, the Contractor shall report to the Contracting Officer.
+      (iii) For indefinite delivery contracts, the Contractor shall report to both the contracting office for the indefinite delivery contract and the contracting office for any affected order.
+    (3) If the report provided does not contain any of the information required by paragraph (h)(1) of this clause, and the contractor later discovers new information that is required by paragraph (h)(1) of this clause, then the contractor shall submit a subsequent report within 72 hours of discovering the new information.
+    (4) The contractor shall also report the information in paragraph (h)(1) if the contractor wishes to ask for a waiver of the requirements of a new FASCSA order being applied through modification.
+  (i) New FASCSA orders report.
+    (1) During contract performance, the Contractor shall review SAM at least once every three months, or as advised by the Contracting Officer, to check for covered articles subject to FASCSA order(s), or for products or services produced by a source subject to FASCSA order(s) not currently identified under paragraph (e) of this clause.
+    (2) If the Contractor identifies a new FASCSA order(s) that could impact their supply chain, then the Contractor shall conduct a reasonable inquiry to identify whether a covered article or product or service produced or provided by a source subject to the FASCSA order(s) was provided to the Government or used during contract performance. The inquiry will look at any information in the entity’s possession but does not need to include an internal or third-party audit.
+    (3) The Contractor shall submit a report to the contracting office identified in paragraph (h)(2) of this clause if the Contractor identifies, including through any notification by a subcontractor at any tier, that a covered article or product or service produced or provided by a source was provided to the Government or used during contract performance and is subject to a FASCSA order(s). For indefinite delivery contracts, the Contractor shall report to both the contracting office for the indefinite delivery contract and the contracting office for any affected order. The Contractor shall report the following information within 72 hours for each covered article or each product or service produced or provided by a source, where the covered article or source is subject to a FASCSA order:
+      (i) Contract number and order number, if applicable;
+      (ii) Name of the covered article or source subject to a FASCSA order;
+      (iii) The specific FASCSA order the product or service does not comply with;
+      (iv) The elements of (h)(1)(iii) through (ix) of this clause.
+  (j) Subcontracts. The Contractor shall insert the substance of this clause, including this paragraph (j) but excluding subparagraphs (d)(1) and (i)(1), in all subcontracts and other contractual instruments, including subcontracts for acquiring commercial products or commercial services.
+(End of Provision)
+C.9  VAAR 852.219-75  VA NOTICE OF LIMITATIONS ON SUBCONTRACTING—CERTIFICATE OF COMPLIANCE FOR SERVICES AND CONSTRUCTION (JAN 2023) (DEVIATION)
+  (a) Pursuant to 38 U.S.C. 8127(l)(2), the offeror certifies that—
+    (1) If awarded a contract (see FAR 2.101 definition), it will comply with the limitations on subcontracting requirement as provided in the solicitation and the resultant contract, as follows:
+      (i) [X] Services. In the case of a contract for services (except construction), the contractor will not pay more than 50% of the amount paid by the government to it to firms that are not certified SDVOSBs listed in the SBA certification database as set forth in 852.219–73 or certified VOSBs listed in the SBA certification database as set forth in 852.219–74. Any work that a similarly situated certified SDVOSB/VOSB subcontractor further subcontracts will count towards the 50% subcontract amount that cannot be exceeded. Other direct costs may be excluded to the extent they are not the principal purpose of the acquisition and small business concerns do not provide the service as set forth in 13 CFR 125.6.
+      (ii) [] General construction. In the case of a contract for general construction, the contractor will not pay more than 85% of the amount paid by the government to it to firms that are not certified SDVOSBs listed in the SBA certification database as set forth in 852.219–73 or certified VOSBs listed in the SBA certification database as set forth in 852.219–74. Any work that a similarly situated certified SDVOSB/VOSB subcontractor further subcontracts will count towards the 85% subcontract amount that cannot be exceeded. Cost of materials are excluded and not considered to be subcontracted.
+      (iii) [] Special trade construction contractors. In the case of a contract for special trade contractors, the contractor will not pay more than 75% of the amount paid by the government to it to firms that are not certified SDVOSBs listed in the SBA certification database as set forth in 852.219–73 or certified VOSBs listed in the SBA certification database as set forth in 852.219–74. Any work that a similarly situated certified SDVOSB/VOSB subcontractor further subcontracts will count towards the 75% subcontract amount that cannot be exceeded. Cost of materials are excluded and not considered to be subcontracted.
+    (2) The offeror acknowledges that this certification concerns a matter within the jurisdiction of an Agency of the United States. The offeror further acknowledges that this certification is subject to Title 18, United States Code, Section 1001, and, as such, a false, fictitious, or fraudulent certification may render the offeror subject to criminal, civil, or administrative penalties, including prosecution.
+    (3) If VA determines that an SDVOSB/ VOSB awarded a contract pursuant to 38 U.S.C. 8127 did not act in good faith, such SDVOSB/VOSB shall be subject to any or all of the following:
+      (i) Referral to the VA Suspension and Debarment Committee;
+      (ii) A fine under section 16(g)(1) of the Small Business Act (15 U.S.C. 645(g)(1)); and
+      (iii) Prosecution for violating 18 U.S.C. 1001.
+  (b) The offeror represents and understands that by submission of its offer and award of a contract it may be required to provide copies of documents or records to VA that VA may review to determine whether the offeror complied with the limitations on subcontracting requirement specified in the contract. Contracting officers may, at their discretion, require the contractor to demonstrate its compliance with the limitations on subcontracting at any time during performance and upon completion of a contract if the information regarding such compliance is not already available to the contracting officer. Evidence of compliance includes, but is not limited to, invoices, copies of subcontracts, or a list of the value of tasks performed.
+  (c) The offeror further agrees to cooperate fully and make available any documents or records as may be required to enable VA to determine compliance with the limitations on subcontracting requirement. The offeror understands that failure to provide documents as requested by VA may result in remedial action as the Government deems appropriate.
+  (d) Offeror completed certification/fill-in required. The formal certification must be completed, signed and returned with the offeror’s bid, quotation, or proposal. The Government will not consider offers for award from offerors that do not provide the certification, and all such responses will be deemed ineligible for evaluation and award.
+Certification
+I hereby certify that if awarded the contract, [insert name of offeror] will comply with the limitations on subcontracting specified in this clause and in the resultant contract. I further certify that I am authorized to execute this certification on behalf of [insert name of offeror].
+Printed Name of Signee: ___________
+Printed Title of Signee: _____________
+Signature: ____________
+Date: ______________
+Company Name and Address: _______________
+(End of Clause)
+	(End of Addendum to 52.212-4)
+SECTION D - CONTRACT DOCUMENTS, EXHIBITS, OR ATTACHMENTS
+D.1 WAGE DETERMINATION
+REGISTER OF WAGE DETERMINATIONS UNDER  |        U.S. DEPARTMENT OF LABOR        
+       THE SERVICE CONTRACT ACT        |  EMPLOYMENT STANDARDS ADMINISTRATION   
+By direction of the Secretary of Labor |         WAGE AND HOUR DIVISION         
+                                       |         WASHINGTON D.C.  20210         
+                                       |
+                                       |
+                                       |
+                                       | Wage Determination No.: 2015-5563
+Daniel W. Simms          Division of   |           Revision No.: 30
+Director            Wage Determinations|  Date Of Last Revision: 8/27/2026
+_______________________________________|____________________________________________
+____________________________________________________________________________________
+State: Oregon, Washington
+Area: Oregon Counties of Clackamas, Columbia, Multnomah, 
+Washington and Yamhill
+Washington Counties of Clark and Skamania
+____________________________________________________________________________________
+          **Fringe Benefits Required Follow the Occupational Listing**       
+OCCUPATION CODE - TITLE                                    FOOTNOTE    RATE
+01000 - Administrative Support And Clerical Occupations
+01011 - Accounting Clerk I                                             21.84
+01012 - Accounting Clerk II                                            24.51
+01013 - Accounting Clerk III                                           27.42
+01020 - Administrative Assistant                                       37.86
+01035 - Court Reporter                                                 23.87
+01041 - Customer Service Representative I                              19.10
+01042 - Customer Service Representative II                             20.85
+01043 - Customer Service Representative III                            23.39
+01051 - Data Entry Operator I                                          20.32
+01052 - Data Entry Operator II                                         22.18
+01060 - Dispatcher, Motor Vehicle                                      27.52
+01070 - Document Preparation Clerk                                     20.04
+01090 - Duplicating Machine Operator                                   20.04
+01111 - General Clerk I                                                19.89
+01112 - General Clerk II                                               21.70
+01113 - General Clerk III                                              24.35
+01120 - Housing Referral Assistant                                     26.62
+01141 - Messenger Courier                                              21.95
+01191 - Order Clerk I                                                  23.15
+01192 - Order Clerk II                                                 25.26
+01261 - Personnel Assistant (Employment) I                             21.27
+01262 - Personnel Assistant (Employment) II                            23.80
+01263 - Personnel Assistant (Employment) III                           26.54
+01270 - Production Control Clerk                                       29.55
+01290 - Rental Clerk                                                   22.00
+01300 - Scheduler, Maintenance                                         21.34
+01311 - Secretary I                                                    21.34
+01312 - Secretary II                                                   23.87
+01313 - Secretary III                                                  26.62
+01320 - Service Order Dispatcher                                       24.61
+01410 - Supply Technician                                              37.86
+01420 - Survey Worker                                                  25.42
+01460 - Switchboard Operator/Receptionist                              20.98
+01531 - Travel Clerk I                                                 21.77
+01532 - Travel Clerk II                                                24.44
+01533 - Travel Clerk III                                               27.34
+01611 - Word Processor I                                               19.08
+01612 - Word Processor II                                              21.42
+01613 - Word Processor III                                             23.97
+05000 - Automotive Service Occupations
+05005 - Automobile Body Repairer, Fiberglass                           28.48
+05010 - Automotive  Electrician                                        27.50
+05040 - Automotive Glass Installer                                     25.88
+05070 - Automotive Worker                                              25.88
+05110 - Mobile Equipment Servicer                                      22.79
+05130 - Motor Equipment Metal Mechanic                                 29.06
+05160 - Motor Equipment Metal Worker                                   25.88
+05190 - Motor Vehicle Mechanic                                         29.06
+05220 - Motor Vehicle Mechanic Helper                                  21.21
+05250 - Motor Vehicle Upholstery Worker                                24.37
+05280 - Motor Vehicle Wrecker                                          25.88
+05310 - Painter, Automotive                                            27.50
+05340 - Radiator Repair Specialist                                     25.88
+05370 - Tire Repairer                                                  23.50
+05400 - Transmission Repair Specialist                                 29.06
+07000 - Food Preparation And Service Occupations
+07010 - Baker                                                          20.25
+07041 - Cook I                                                         22.02
+07042 - Cook II                                                        25.01
+07070 - Dishwasher                                                     17.91
+07130 - Food Service Worker                                            18.62
+07210 - Meat Cutter                                                    24.99
+07260 - Waiter/Waitress                                                18.95
+09000 - Furniture Maintenance And Repair Occupations
+09010 - Electrostatic Spray Painter                                    25.31
+09040 - Furniture Handler                                              13.19
+09080 - Furniture Refinisher                                           20.19
+09090 - Furniture Refinisher Helper                                    15.57
+09110 - Furniture Repairer, Minor                                      17.88
+09130 - Upholsterer                                                    23.00
+11000 - General Services And Support Occupations
+11030 - Cleaner, Vehicles                                              18.86
+11060 - Elevator Operator                                              19.79
+11090 - Gardener                                                       28.32
+11122 - Housekeeping Aide                                              19.79
+11150 - Janitor                                                        19.79
+11210 - Laborer, Grounds Maintenance                                   22.33
+11240 - Maid or Houseman                                               18.75
+11260 - Pruner                                                         20.39
+11270 - Tractor Operator                                               26.36
+11330 - Trail Maintenance Worker                                       22.33
+11360 - Window Cleaner                                                 21.67
+12000 - Health Occupations
+12010 - Ambulance Driver                                               25.01
+12011 - Breath Alcohol Technician                                      36.00
+12012 - Certified Occupational Therapist Assistant                     37.81
+12015 - Certified Physical Therapist Assistant                         35.91
+12020 - Dental Assistant                                               28.79
+12025 - Dental Hygienist                                               59.18
+12030 - EKG Technician                                                 46.03
+12035 - Electroneurodiagnostic Technologist                            46.03
+12040 - Emergency Medical Technician                                   25.01
+12071 - Licensed Practical Nurse I                                     32.18
+12072 - Licensed Practical Nurse II                                    36.00
+12073 - Licensed Practical Nurse III                                   40.15
+12100 - Medical Assistant                                              27.04
+12130 - Medical Laboratory Technician                                  39.91
+12160 - Medical Record Clerk                                           26.60
+12190 - Medical Record Technician                                      29.76
+12195 - Medical Transcriptionist                                       21.98
+12210 - Nuclear Medicine Technologist                                  60.97
+12221 - Nursing Assistant I                                            17.58
+12222 - Nursing Assistant II                                           19.77
+12223 - Nursing Assistant III                                          21.58
+12224 - Nursing Assistant IV                                           24.21
+12235 - Optical Dispenser                                              28.09
+12236 - Optical Technician                                             22.28
+12250 - Pharmacy Technician                                            28.17
+12280 - Phlebotomist                                                   24.85
+12305 - Radiologic Technologist                                        50.39
+12311 - Registered Nurse I                                             35.31
+12312 - Registered Nurse II                                            43.19
+12313 - Registered Nurse II, Specialist                                43.19
+12314 - Registered Nurse III                                           52.27
+12315 - Registered Nurse III, Anesthetist                              52.27
+12316 - Registered Nurse IV                                            62.65
+12317 - Scheduler (Drug and Alcohol Testing)                           44.60
+12320 - Substance Abuse Treatment Counselor                            36.21
+13000 - Information And Arts Occupations
+13011 - Exhibits Specialist I                                          27.80
+13012 - Exhibits Specialist II                                         34.45
+13013 - Exhibits Specialist III                                        42.14
+13041 - Illustrator I                                                  25.77
+13042 - Illustrator II                                                 31.93
+13043 - Illustrator III                                                39.06
+13047 - Librarian                                                      39.49
+13050 - Library Aide/Clerk                                             23.30
+13054 - Library Information Technology Systems 
+Administrator                                                          35.66
+13058 - Library Technician                                             27.21
+13061 - Media Specialist I                                             25.73
+13062 - Media Specialist II                                            28.78
+13063 - Media Specialist III                                           32.10
+13071 - Photographer I                                                 20.54
+13072 - Photographer II                                                22.98
+13073 - Photographer III                                               28.47
+13074 - Photographer IV                                                34.83
+13075 - Photographer V                                                 42.15
+13090 - Technical Order Library Clerk                                  29.25
+13110 - Video Teleconference Technician                                27.34
+14000 - Information Technology Occupations
+14041 - Computer Operator I                                            23.27
+14042 - Computer Operator II                                           26.03
+14043 - Computer Operator III                                          29.02
+14044 - Computer Operator IV                                           32.24
+14045 - Computer Operator V                                            35.71
+14071 - Computer Programmer I                              (see 1)         
+14072 - Computer Programmer II                             (see 1)         
+14073 - Computer Programmer III                            (see 1)         
+14074 - Computer Programmer IV                             (see 1)         
+14101 - Computer Systems Analyst I                         (see 1)         
+14102 - Computer Systems Analyst II                        (see 1)         
+14103 - Computer Systems Analyst III                       (see 1)         
+14150 - Peripheral Equipment Operator                                  23.27
+14160 - Personal Computer Support Technician                           32.24
+14170 - System Support Specialist                                      35.71
+15000 - Instructional Occupations
+15010 - Aircrew Training Devices Instructor 
+(Non-Rated)                                                            42.21
+15020 - Aircrew Training Devices Instructor (Rated)                    51.09
+15030 - Air Crew Training Devices Instructor 
+(Pilot)                                                                61.23
+15050 - Computer Based Training Specialist / 
+Instructor                                                             42.21
+15060 - Educational Technologist                                       45.33
+15070 - Flight Instructor (Pilot)                                      61.23
+15080 - Graphic Artist                                                 36.33
+15085 - Maintenance Test Pilot, Fixed, Jet/Prop                        61.23
+15086 - Maintenance Test Pilot, Rotary Wing                            61.23
+15088 - Non-Maintenance Test/Co-Pilot                                  61.23
+15090 - Technical Instructor                                           30.26
+15095 - Technical Instructor/Course Developer                          37.02
+15110 - Test Proctor                                                   24.43
+15120 - Tutor                                                          24.43
+16000 - Laundry, Dry-Cleaning, Pressing And Related Occupations
+16010 - Assembler                                                      19.37
+16030 - Counter Attendant                                              19.37
+16040 - Dry Cleaner                                                    22.15
+16070 - Finisher, Flatwork, Machine                                    19.37
+16090 - Presser, Hand                                                  19.37
+16110 - Presser, Machine, Drycleaning                                  19.37
+16130 - Presser, Machine, Shirts                                       19.37
+16160 - Presser, Machine, Wearing Apparel, Laundry                     19.37
+16190 - Sewing Machine Operator                                        23.08
+16220 - Tailor                                                         23.98
+16250 - Washer, Machine                                                20.30
+19000 - Machine Tool Operation And Repair Occupations
+19010 - Machine-Tool Operator (Tool Room)                              30.74
+19040 - Tool And Die Maker                                             37.39
+21000 - Materials Handling And Packing Occupations
+21020 - Forklift Operator                                              25.06
+21030 - Material Coordinator                                           29.55
+21040 - Material Expediter                                             29.55
+21050 - Material Handling Laborer                                      22.17
+21071 - Order Filler                                                   21.37
+21080 - Production Line Worker (Food Processing)                       25.06
+21110 - Shipping Packer                                                23.16
+21130 - Shipping/Receiving Clerk                                       23.16
+21140 - Store Worker I                                                 17.84
+21150 - Stock Clerk                                                    22.85
+21210 - Tools And Parts Attendant                                      25.06
+21410 - Warehouse Specialist                                           25.06
+23000 - Mechanics And Maintenance And Repair Occupations
+23010 - Aerospace Structural Welder                                    42.45
+23019 - Aircraft Logs and Records Technician                           33.77
+23021 - Aircraft Mechanic I                                            40.27
+23022 - Aircraft Mechanic II                                           42.45
+23023 - Aircraft Mechanic III                                          44.61
+23040 - Aircraft Mechanic Helper                                       29.39
+23050 - Aircraft, Painter                                              38.11
+23060 - Aircraft Servicer                                              33.77
+23070 - Aircraft Survival Flight Equipment 
+Technician                                                             38.11
+23080 - Aircraft Worker                                                35.86
+23091 - Aircrew Life Support Equipment (ALSE) 
+Mechanic I                                                             35.86
+23092 - Aircrew Life Support Equipment (ALSE) 
+Mechanic II                                                            40.27
+23110 - Appliance Mechanic                                             26.85
+23120 - Bicycle Repairer                                               23.04
+23125 - Cable Splicer                                                  65.05
+23130 - Carpenter, Maintenance                                         34.80
+23140 - Carpet Layer                                                   27.81
+23160 - Electrician, Maintenance                                       50.53
+23181 - Electronics Technician Maintenance I                           40.82
+23182 - Electronics Technician Maintenance II                          43.38
+23183 - Electronics Technician Maintenance III                         45.84
+23260 - Fabric Worker                                                  32.94
+23290 - Fire Alarm System Mechanic                                     37.56
+23310 - Fire Extinguisher Repairer                                     30.80
+23311 - Fuel Distribution System Mechanic                              47.30
+23312 - Fuel Distribution System Operator                              37.09
+23370 - General Maintenance Worker                                     28.25
+23380 - Ground Support Equipment Mechanic                              40.27
+23381 - Ground Support Equipment Servicer                              33.77
+23382 - Ground Support Equipment Worker                                35.86
+23391 - Gunsmith I                                                     30.80
+23392 - Gunsmith II                                                    34.98
+23393 - Gunsmith III                                                   39.29
+23410 - Heating, Ventilation And Air-Conditioning 
+Mechanic                                                               31.38
+23411 - Heating, Ventilation And Air Contidioning 
+Mechanic (Research Facility)                                           33.08
+23430 - Heavy Equipment Mechanic                                       37.75
+23440 - Heavy Equipment Operator                                       38.00
+23460 - Instrument Mechanic                                            36.77
+23465 - Laboratory/Shelter Mechanic                                    37.18
+23470 - Laborer                                                        22.17
+23510 - Locksmith                                                      24.17
+23530 - Machinery Maintenance Mechanic                                 37.84
+23550 - Machinist, Maintenance                                         30.85
+23580 - Maintenance Trades Helper                                      21.60
+23591 - Metrology Technician I                                         36.77
+23592 - Metrology Technician II                                        38.75
+23593 - Metrology Technician III                                       40.73
+23640 - Millwright                                                     37.00
+23710 - Office Appliance Repairer                                      23.34
+23760 - Painter, Maintenance                                           25.62
+23790 - Pipefitter, Maintenance                                        48.56
+23810 - Plumber, Maintenance                                           45.96
+23820 - Pneudraulic Systems Mechanic                                   39.29
+23850 - Rigger                                                         39.27
+23870 - Scale Mechanic                                                 34.98
+23890 - Sheet-Metal Worker, Maintenance                                38.26
+23910 - Small Engine Mechanic                                          25.67
+23931 - Telecommunications Mechanic I                                  35.56
+23932 - Telecommunications Mechanic II                                 37.49
+23950 - Telephone Lineman                                              35.31
+23960 - Welder, Combination, Maintenance                               29.83
+23965 - Well Driller                                                   35.36
+23970 - Woodcraft Worker                                               39.29
+23980 - Woodworker                                                     30.80
+24000 - Personal Needs Occupations
+24550 - Case Manager                                                   24.86
+24570 - Child Care Attendant                                           19.03
+24580 - Child Care Center Clerk                                        23.74
+24610 - Chore Aide                                                     21.55
+24620 - Family Readiness And Support Services 
+Coordinator                                                            24.86
+24630 - Homemaker                                                      24.86
+25000 - Plant And System Operations Occupations
+25010 - Boiler Tender                                                  39.40
+25040 - Sewage Plant Operator                                          40.32
+25070 - Stationary Engineer                                            39.40
+25190 - Ventilation Equipment Tender                                   28.75
+25210 - Water Treatment Plant Operator                                 40.32
+27000 - Protective Service Occupations
+27004 - Alarm Monitor                                                  39.02
+27007 - Baggage Inspector                                              20.12
+27008 - Corrections Officer                                            42.11
+27010 - Court Security Officer                                         41.56
+27030 - Detection Dog Handler                                          22.51
+27040 - Detention Officer                                              42.11
+27070 - Firefighter                                                    41.34
+27101 - Guard I                                                        20.12
+27102 - Guard II                                                       22.51
+27131 - Police Officer I                                               42.07
+27132 - Police Officer II                                              46.73
+28000 - Recreation Occupations
+28041 - Carnival Equipment Operator                                    22.35
+28042 - Carnival Equipment Repairer                                    24.01
+28043 - Carnival Worker                                                17.29
+28210 - Gate Attendant/Gate Tender                                     25.06
+28310 - Lifeguard                                                      17.48
+28350 - Park Attendant (Aide)                                          28.04
+28510 - Recreation Aide/Health Facility Attendant                      20.47
+28515 - Recreation Specialist                                          34.73
+28630 - Sports Official                                                22.34
+28690 - Swimming Pool Operator                                         27.27
+29000 - Stevedoring/Longshoremen Occupational Services
+29010 - Blocker And Bracer                                             43.10
+29020 - Hatch Tender                                                   43.10
+29030 - Line Handler                                                   43.10
+29041 - Stevedore I                                                    40.57
+29042 - Stevedore II                                                   45.80
+30000 - Technical Occupations
+30010 - Air Traffic Control Specialist, Center 
+(HFO)                                                      (see 2)     50.14
+30011 - Air Traffic Control Specialist, Station 
+(HFO)                                                      (see 2)     34.58
+30012 - Air Traffic Control Specialist, Terminal 
+(HFO)                                                      (see 2)     38.07
+30021 - Archeological Technician I                                     23.60
+30022 - Archeological Technician II                                    26.40
+30023 - Archeological Technician III                                   32.69
+30030 - Cartographic Technician                                        32.69
+30040 - Civil Engineering Technician                                   40.98
+30051 - Cryogenic Technician I                                         36.21
+30052 - Cryogenic Technician II                                        39.99
+30061 - Drafter/CAD Operator I                                         23.60
+30062 - Drafter/CAD Operator II                                        26.40
+30063 - Drafter/CAD Operator III                                       29.41
+30064 - Drafter/CAD Operator IV                                        36.21
+30081 - Engineering Technician I                                       19.71
+30082 - Engineering Technician II                                      22.12
+30083 - Engineering Technician III                                     24.75
+30084 - Engineering Technician IV                                      30.66
+30085 - Engineering Technician V                                       37.50
+30086 - Engineering Technician VI                                      45.38
+30090 - Environmental Technician                                       30.04
+30095 - Evidence Control Specialist                                    32.69
+30210 - Laboratory Technician                                          27.31
+30221 - Latent Fingerprint Technician I                                39.76
+30222 - Latent Fingerprint Technician II                               43.92
+30240 - Mathematical Technician                                        34.29
+30361 - Paralegal/Legal Assistant I                                    23.93
+30362 - Paralegal/Legal Assistant II                                   29.64
+30363 - Paralegal/Legal Assistant III                                  36.26
+30364 - Paralegal/Legal Assistant IV                                   43.88
+30375 - Petroleum Supply Specialist                                    39.99
+30390 - Photo-Optics Technician                                        32.69
+30395 - Radiation Control Technician                                   39.99
+30461 - Technical Writer I                                             28.62
+30462 - Technical Writer II                                            35.01
+30463 - Technical Writer III                                           42.35
+30491 - Unexploded Ordnance (UXO) Technician I                         31.87
+30492 - Unexploded Ordnance (UXO) Technician II                        38.56
+30493 - Unexploded Ordnance (UXO) Technician III                       46.21
+30494 - Unexploded (UXO) Safety Escort                                 31.87
+30495 - Unexploded (UXO) Sweep Personnel                               31.87
+30501 - Weather Forecaster I                                           36.21
+30502 - Weather Forecaster II                                          44.04
+30620 - Weather Observer, Combined Upper Air Or 
+Surface Programs                                           (see 2)     29.41
+30621 - Weather Observer, Senior                           (see 2)     32.69
+31000 - Transportation/Mobile Equipment Operation Occupations
+31010 - Airplane Pilot                                                 38.56
+31020 - Bus Aide                                                       26.61
+31030 - Bus Driver                                                     36.08
+31043 - Driver Courier                                                 21.35
+31260 - Parking and Lot Attendant                                      18.98
+31290 - Shuttle Bus Driver                                             20.65
+31310 - Taxi Driver                                                    16.50
+31361 - Truckdriver, Light                                             22.94
+31362 - Truckdriver, Medium                                            24.53
+31363 - Truckdriver, Heavy                                             30.67
+31364 - Truckdriver, Tractor-Trailer                                   30.67
+99000 - Miscellaneous Occupations
+99020 - Cabin Safety Specialist                                        18.80
+99030 - Cashier                                                        17.58
+99050 - Desk Clerk                                                     18.73
+99095 - Embalmer                                                       29.76
+99130 - Flight Follower                                                31.87
+99251 - Laboratory Animal Caretaker I                                  21.97
+99252 - Laboratory Animal Caretaker II                                 23.60
+99260 - Marketing Analyst                                              41.62
+99310 - Mortician                                                      29.76
+99410 - Pest Controller                                                22.84
+99510 - Photofinishing Worker                                          24.28
+99710 - Recycling Laborer                                              34.70
+99711 - Recycling Specialist                                           40.96
+99730 - Refuse Collector                                               31.69
+99810 - Sales Clerk                                                    17.95
+99820 - School Crossing Guard                                          22.87
+99830 - Survey Party Chief                                             36.65
+99831 - Surveying Aide                                                 21.61
+99832 - Surveying Technician                                           29.59
+99840 - Vending Machine Attendant                                      22.68
+99841 - Vending Machine Repairer                                       27.67
+99842 - Vending Machine Repairer Helper                                22.68
+Note: Executive Order (EO) 13706, Establishing Paid Sick Leave for Federal 
+Contractors, applies to all contracts subject to the Service Contract Act for which 
+the contract is awarded (and any solicitation was issued) on or after January 1, 
+2017.  If this contract is covered by the EO, the contractor must provide employees 
+with 1 hour of paid sick leave for every 30 hours they work, up to 56 hours of paid 
+sick leave each year. Employees must be permitted to use paid sick leave for their 
+own illness, injury or other health-related needs, including preventive care; to 
+assist a family member (or person who is like family to the employee) who is ill, 
+injured, or has other health-related needs, including preventive care; or for 
+reasons resulting from, or to assist a family member (or person who is like family 
+to the employee) who is the victim of, domestic violence, sexual assault, or 
+stalking.  Additional information on contractor requirements and worker protections 
+under the EO is available at www.dol.gov/whd/govcontracts.
+Note: Executive Order 13658 generally applies to contracts subject to the Service 
+Contract Act that were awarded on or between January 1, 2015 and January 29, 2022, 
+and that have not been renewed or extended on or after January 30, 2022. If a 
+contract is subject to Executive Order 13658, the contractor must pay all covered 
+workers at least $13.65 per hour (or the applicable wage rate listed on this wage determination, if it is higher) for all hours spent performing on the contract from May 11, 2026, through December 31, 2026. The applicable Executive Order minimum wage rate will be adjusted annually. 
+Additional information on contractor requirements and worker protections under 
+Executive Order 13658 is available at www.dol.gov/whd/govcontracts.
+ALL OCCUPATIONS LISTED ABOVE RECEIVE THE FOLLOWING BENEFITS: 
+HEALTH & WELFARE: $5.92 per hour, up to 40 hours per week, or $236.80 per week or 
+$1,026.13 per month
+HEALTH & WELFARE EO 13706: $5.42 per hour, up to 40 hours per week, or $216.80 per 
+week, or $939.46 per month*
+*This rate is to be used only when compensating employees for performance on an SCA-
+covered contract also covered by EO 13706, Establishing Paid Sick Leave for Federal 
+Contractors.  A contractor may not receive credit toward its SCA obligations for any 
+paid sick leave provided pursuant to EO 13706.
+VACATION: 2 weeks paid vacation after 1 year of service with a contractor or 
+successor, 3 weeks after 5 years, and 4 weeks after 15 years.  Length of service 
+includes the whole span of continuous service with the present contractor or 
+successor, wherever employed, and with the predecessor contractors in the 
+performance of similar work at the same Federal facility.  (Reg. 29 CFR 4.173)
+HOLIDAYS: A minimum of eleven paid holidays per year:  New Year's Day, Martin 
+Luther King Jr.'s Birthday, Washington's Birthday, Memorial Day, Juneteenth 
+National Independence Day, Independence Day, Labor Day, Columbus Day, Veterans' 
+Day, Thanksgiving Day, and Christmas Day. (A contractor may substitute for any of 
+the named holidays another day off with pay in accordance with a plan communicated 
+to the employees involved.)  (See 29 CFR 4.174)
+THE OCCUPATIONS WHICH HAVE NUMBERED FOOTNOTES IN PARENTHESES RECEIVE THE FOLLOWING:
+1)  COMPUTER EMPLOYEES:  This wage determination does not apply to any individual 
+employed in a bona fide executive, administrative, or professional capacity, as 
+defined in 29 C.F.R. Part 541.  (See 41 C.F.R. 6701(3)).  Because most Computer 
+Systems Analysts and Computer Programmers who are paid at least $27.63 per hour (or 
+at least $684 per week if paid on a salary or fee basis) likely qualify as exempt 
+computer professionals under 29 U.S.C. 213(a)(1) and 29 U.S.C. 213(a)(17), this wage 
+determination may not include wage rates for all occupations within those job 
+families.  In such instances, a conformance will be necessary if there are nonexempt 
+employees in these job families working on the contract.
+Job titles vary widely and change quickly in the computer industry, and are not 
+determinative of whether an employee is an exempt computer professional.  To be 
+exempt, computer employees who satisfy the compensation requirements must also have 
+a primary duty that consists of:
+    (1) The application of systems analysis techniques and procedures, including 
+consulting with users, to determine hardware, software or system functional 
+specifications;
+    (2) The design, development, documentation, analysis, creation, testing or 
+modification of computer systems or programs, including prototypes, based on and 
+related to user or system design specifications;
+    (3) The design, documentation, testing, creation or modification of computer 
+programs related to machine operating systems; or
+    (4) A combination of the aforementioned duties, the performance of which 
+requires the same level of skills.  (29 C.F.R. 541.400).
+Any computer employee who meets the applicable compensation requirements and the 
+above duties test qualifies as an exempt computer professional under both section 
+13(a)(1) and section 13(a)(17) of the Fair Labor Standards Act. (Field Assistance 
+Bulletin No. 2006-3 (Dec. 14, 2006)).  Accordingly, this wage determination will not 
+apply to any exempt computer employee regardless of which of these two exemptions is 
+utilized.
+2)  AIR TRAFFIC CONTROLLERS AND WEATHER OBSERVERS - NIGHT PAY & SUNDAY PAY:  If you 
+work at night as part of a regular tour of duty, you will earn a night differential 
+and receive an additional 10% of basic pay for any hours worked between 6pm and 6am. 
+ If you are a full-time employed (40 hours a week) and Sunday is part of your 
+regularly scheduled workweek, you are paid at your rate of basic pay plus a Sunday 
+premium of 25% of your basic rate for each hour of Sunday work which is not overtime 
+(i.e. occasional work on Sunday outside the normal tour of duty is considered 
+overtime work).
+** HAZARDOUS PAY DIFFERENTIAL **
+An 8 percent differential is applicable to employees employed in a position that 
+represents a high degree of hazard when working with or in close proximity to 
+ordnance, explosives, and incendiary materials.  This includes work such as 
+screening, blending, dying, mixing, and pressing of sensitive ordnance, explosives, 
+and pyrotechnic compositions such as lead azide, black powder and photoflash powder. 
+ All dry-house activities involving propellants or explosives.  Demilitarization, 
+modification, renovation, demolition, and maintenance operations on sensitive 
+ordnance, explosives and incendiary materials.  All operations involving re-grading 
+and cleaning of artillery ranges.
+A 4 percent differential is applicable to employees employed in a position that 
+represents a low degree of hazard when working with, or in close proximity to 
+ordnance, (or employees possibly adjacent to) explosives and incendiary materials 
+which involves potential injury such as laceration of hands, face, or arms of the 
+employee engaged in the operation, irritation of the skin, minor burns and the like; 
+minimal damage to immediate or adjacent work area or equipment being used.  All 
+operations involving, unloading, storage, and hauling of ordnance, explosive, and 
+incendiary ordnance material other than small arms ammunition.  These differentials 
+are only applicable to work that has been specifically designated by the agency for 
+ordnance, explosives, and incendiary material differential pay.
+** UNIFORM ALLOWANCE **
+If employees are required to wear uniforms in the performance of this contract 
+(either by the terms of the Government contract, by the employer, by the state or 
+local law, etc.), the cost of furnishing such uniforms and maintaining (by 
+laundering or dry cleaning) such uniforms is an expense that may not be borne by an 
+employee where such cost reduces the hourly rate below that required by the wage 
+determination. The Department of Labor will accept payment in accordance with the 
+following standards as compliance:
+The contractor or subcontractor is required to furnish all employees with an 
+adequate number of uniforms without cost or to reimburse employees for the actual 
+cost of the uniforms.  In addition, where uniform cleaning and maintenance is made 
+the responsibility of the employee, all contractors and subcontractors subject to 
+this wage determination shall (in the absence of a bona fide collective bargaining 
+agreement providing for a different amount, or the furnishing of contrary 
+affirmative proof as to the actual cost), reimburse all employees for such cleaning 
+and maintenance at a rate of $3.35 per week (or $.67 cents per day).  However, in 
+those instances where the uniforms furnished are made of """"wash and wear"""" 
+materials, may be routinely washed and dried with other personal garments, and do 
+not require any special treatment such as dry cleaning, daily washing, or commercial 
+laundering in order to meet the cleanliness or appearance standards set by the terms 
+of the Government contract, by the contractor, by law, or by the nature of the work, 
+there is no requirement that employees be reimbursed for uniform maintenance costs.
+** SERVICE CONTRACT ACT DIRECTORY OF OCCUPATIONS **
+The duties of employees under job titles listed are those described in the 
+""""Service Contract Act Directory of Occupations"""", Fifth Edition (Revision 1), 
+dated September 2015, unless otherwise indicated.
+** REQUEST FOR AUTHORIZATION OF ADDITIONAL CLASSIFICATION AND WAGE RATE, Standard 
+Form 1444 (SF-1444) **
+Conformance Process:
+The contracting officer shall require that any class of service employee which is 
+not listed herein and which is to be employed under the contract (i.e., the work to 
+be performed is not performed by any classification listed in the wage 
+determination), be classified by the contractor so as to provide a reasonable 
+relationship (i.e., appropriate level of skill comparison) between such unlisted 
+classifications and the classifications listed in the wage determination (See 29 CFR 
+4.6(b)(2)(i)).  Such conforming procedures shall be initiated by the contractor 
+prior to the performance of contract work by such unlisted class(es) of employees 
+(See 29 CFR 4.6(b)(2)(ii)).  The Wage and Hour Division shall make a final 
+determination of conformed classification, wage rate, and/or fringe benefits which 
+shall be paid to all employees performing in the classification from the first day 
+of work on which contract work is performed by them in the classification.  Failure 
+to pay such unlisted employees the compensation agreed upon by the interested 
+parties and/or fully determined by the Wage and Hour Division retroactive to the 
+date such class of employees commenced contract work shall be a violation of the Act 
+and this contract.  (See 29 CFR 4.6(b)(2)(v)). When multiple wage determinations are 
+included in a contract, a separate SF-1444 should be prepared for each wage 
+determination to which a class(es) is to be conformed.
+The process for preparing a conformance request is as follows:
+1) When preparing the bid, the contractor identifies the need for a conformed 
+occupation(s) and computes a proposed rate(s).
+2) After contract award, the contractor prepares a written report listing in order 
+the proposed classification title(s), a Federal grade equivalency (FGE) for each 
+proposed classification(s), job description(s), and rationale for proposed wage 
+rate(s), including information regarding the agreement or disagreement of the 
+authorized representative of the employees involved, or where there is no authorized 
+representative, the employees themselves. This report should be submitted to the 
+contracting officer no later than 30 days after such unlisted class(es) of employees 
+performs any contract work.
+3) The contracting officer reviews the proposed action and promptly submits a report 
+of the action, together with the agency's recommendations and pertinent 
+information including the position of the contractor and the employees, to the U.S. 
+Department of Labor, Wage and Hour Division, for review (See 29 CFR 4.6(b)(2)(ii)).
+4) Within 30 days of receipt, the Wage and Hour Division approves, modifies, or 
+disapproves the action via transmittal to the agency contracting officer, or 
+notifies the contracting officer that additional time will be required to process 
+the request.
+5) The contracting officer transmits the Wage and Hour Division's decision to the 
+contractor.
+6) Each affected employee shall be furnished by the contractor with a written copy 
+of such determination or it shall be posted as a part of the wage determination (See 
+29 CFR 4.6(b)(2)(iii)).
+Information required by the Regulations must be submitted on SF-1444 or bond paper.
+When preparing a conformance request, the """"Service Contract Act Directory of 
+Occupations"""" should be used to compare job definitions to ensure that duties 
+requested are not performed by a classification already listed in the wage 
+determination. Remember, it is not the job title, but the required tasks that 
+determine whether a class is included in an established wage determination. 
+Conformances may not be used to artificially split, combine, or subdivide 
+classifications listed in the wage determination (See 29 CFR 4.152(c)(1))."""
+SECTION E - SOLICITATION PROVISIONS
+E.1  52.212-1  INSTRUCTIONS TO OFFERORS—COMMERCIAL PRODUCTS AND COMMERCIAL SERVICES (OCT 2025) (DEVIATION)
+  (a) Submission of offers. Submit signed and dated offers to the office specified in this solicitation at or before the exact time specified in this solicitation. As a minimum, offers shall include—
+    (1) The solicitation number;
+    (2) The name, address, telephone number of the Offeror;
+    (3) The Offeror’s Unique Entity Identifier (UEI) and, if applicable, Electronic Funds Transfer (EFT) indicator;
+    (4) Information necessary to evaluate the factors contained in the provision at 52.212-2 or as described in the solicitation;
+    (5) Responses to provisions that require Offeror completion of information, representations, and certifications (other than those collected via the System for Award Management (SAM)); and
+    (6) A statement specifying the extent of agreement with all terms, conditions, and provisions included in the solicitation and any solicitation amendments.
+  (b) Period for acceptance of offers. The Offeror agrees to hold the prices in its offer firm for 60 calendar days from the date specified for receipt of offers, unless another time period is specified in an addendum to the solicitation.
+  (c) Late submissions, modifications, revisions, and withdrawals of offers.
+    (1) Offerors are responsible for submitting offers and any modifications or revisions to the Government office designated in the solicitation by the time specified in the solicitation.
+    (2) Any offer, modification, or revision received after the time specified for receipt of offers is “late” and will not be considered unless it is received before award is made and the Contracting Officer determines that accepting the late offer would not unduly delay the acquisition. However, a late modification of an otherwise successful offer that makes its terms more favorable to the Government will be considered at any time it is received and may be accepted.
+    (3) If an emergency or unanticipated event interrupts normal Government processes so that offers cannot be received at the Government office designated for receipt of offers by the exact time specified in the solicitation, and urgent Government requirements preclude amendment of the solicitation or other notice of an extension of the closing date, the time specified for receipt of offers will be deemed to be extended to the same time of day specified in the solicitation on the first work day on which normal Government processes resume.
+    (4) Offerors may withdraw their offers by written notice to the Government received at any time before award.
+  (d) Contract award (not applicable to Invitation for Bids). The Government intends to evaluate offers and award a contract without discussions with Offerors. Therefore, the Offeror’s initial offer should contain the Offeror’s best terms. However, the Government reserves the right to conduct discussions, if necessary. The Government may reject any or all offers if such action is in the public interest, accept other than the lowest offer, and waive informalities and minor irregularities in offers received.
+  (e) Debriefings. If a postaward debriefing is given to requesting Offerors, the Government will disclose the following information, if applicable:
+    (1) The agency’s evaluation of the significant weak or deficient factors in the debriefed Offeror’s offer.
+    (2) The overall evaluated cost or price and technical rating of the successful Offeror and the debriefed Offeror and past performance information on the debriefed Offeror.
+    (3) The overall ranking of all Offerors when any ranking was developed by the agency during source selection.
+    (4) A summary of the rationale for award.
+    (5) For acquisitions of commercial products, the make and model of the product to be delivered by the successful Offeror.
+    (6) Reasonable responses to relevant questions posed by the debriefed Offeror as to whether the agency followed source-selection procedures set forth in the solicitation, applicable regulations, and other applicable authorities.
+(End of Provision)
+E.2 ADDENDUM TO 52.212-1: ADDITIONAL QUOTE PREPARATION INSTRUCTIONS
+1. Quote Preparation Instructions: 
+a. Specific Instructions: Submit signed and dated quote to Contracting Officer Tyrone Whalen via email to tyrone.whalen@va.gov. All Quotes shall be legible and prepared in the following general format to be properly evaluated. Quotes shall be complete, self-sufficient, and respond directly to the requirements of this solicitation. Email size limit is approximately 10 MB. If needed, large attachments may be sent over several emails. 
+b. Format:
+** CONTRACTORS SHALL SUBMIT PARTS 1 THROUGH 3 BELOW TO BE CONSIDERED FURTHER FOR THIS SOLICITATION. **
+PLEASE SUBMIT EACH PART AS A SEPARATE ATTACHMENT.
+Part I: Executed Quote (Signed SF1449) 
+Part II: Price 
+Part III: Technical 
+Part IV: Past Performance 
+i. Part I - Executed Quote: Complete SF1449 which includes filling out 17a (include sam.gov UEI number), 30a-c, as well as B.1 information (Amendment Acknowledgement) and VAAR 852.219-75 VA NOTICE OF LIMITATIONS ON SUBCONTRACTING—CERTIFICATE OF COMPLIANCE FOR SERVICES AND CONSTRUCTION certificate completion. 
+ii. Part II - Price: Insert unit and extended prices in line items 0001 through 4001. All prices shall be represented in two decimal positions only. Example: $0.27, not $0.27458. Ensure calculations are correct. 
+iii. Part III: Technical Approach: 
+Does your solution provide a fully operational Commercial Off-The-Shelf (COTS) SaaS platform at contract award with no customization required?
+Is your system compliant with FedRAMP requirements and hosted on FedRAMP-approved infrastructure?
+Does your system meet NIST 800-145 and NIST 800-53 Rev.3 security requirements?
+Does your system support multi-factor authentication and replay-resistant authentication?
+Is all data encrypted in transit and at rest?
+Can your system track loads, tonnage, deficiencies, labor types, labor costs, usage and assets, including asset numbers, part numbers, manufacturers, models, and locations?
+Can your system configure standard audit reports from operational data and can users generate ad-hoc reports?
+Does your system include dashboard functionality for performance metrics, and can it maintain historical data and generate analytics and trending information?
+Does your system support multiple levels of access (national, regional, local) within the VA EMS organizational structure and can you demonstrate accurate mapping of user roles and permissions across all three levels?
+Can you provide both on-site and web-based training prior to go-live and does your training include classroom-based instruction with proficiency evaluation?
+iv. Part IV – Past Performance 
+a. There is no minimum or maximum submittals for Past Performance. 
+b. Identify all federal, state, and local government contracts as well as any private/commercial contracts of similar scope, size, complexity that are ongoing or have been completed within the last five (5) years. List the following information for each contract: 
+i. Company or entity name and address 
+ii. Description of services performed and square footage size of the facility 
+iii. Name, telephone number and email address of responsible individuals who have first-hand knowledge of performance relative to similar type of services (Reference Point of Contact) 
+iv. Dates of contract performance (state date to end date/present date) 
+v. Contract Type (e.g. fixed-price, cost reimbursable) and total contract value 
+E.3  52.252-1  SOLICITATION PROVISIONS INCORPORATED BY REFERENCE  (FEB 1998)
+  This solicitation incorporates one or more solicitation provisions by reference, with the same force and effect as if they were given in full text. Upon request, the Contracting Officer will make their full text available. The offeror is cautioned that the listed provisions may include blocks that must be completed by the offeror and submitted with its quotation or offer. In lieu of submitting the full text of those provisions, the offeror may identify the provision by paragraph identifier and provide the appropriate information with its quotation or offer. Also, the full text of a solicitation provision may be accessed electronically at this/these address(es):
+  https://www.acquisition.gov/browse/index/far 
+  https://www.va.gov/oal/library/vaar/ 
+(End of Provision)
+	(End of Addendum to 52.212-1)
+E.4  52.212-2  EVALUATION—COMMERCIAL PRODUCTS AND COMMERCIAL SERVICES (OCT 2025) (DEVIATION)
+  (a) Evaluation factors. The Government will award a contract resulting from this solicitation to the responsible Offeror whose offer conforming to the solicitation will be most advantageous to the Government, price and other factors considered. The following factors will be used to evaluate offers:
+   Factor 1: Technical
+   Factor 2: Past Performance
+   Factor 3: Price
+The quotes will undergo a comparative evaluation to determine which quote is the best    overall offer to the government in terms of high technical capability and satisfactory past performance, while also providing a competitive price. 
+• Quotes will be evaluated by performing a direct comparison of one offer with another in a uniform manner to determine which quote provides the government with its needs, as identified in the RFQ. 
+• The government reserves the right to consider a response that offers more than the minimum and select that response if it provides a benefit to the government. 
+• The government has the discretion to accept other than the lowest priced offeror that provides additional benefits. 
+• The government reserves the right to select a response that provides benefit to the Government that exceeds the minimum but is not required to do so. 
+• Responses may exceed requirements. Each response at a minimum must meet solicitation requirement statement. The government is not requesting or accepting alternate quotes.    
+  (b) Options (if applicable). The Government will evaluate offers for award purposes by adding the total price for all options to the total price for the basic requirement. The Government may determine that an offer is unacceptable if the option prices are significantly unbalanced. The evaluation of options does not obligate the Government to exercise the option(s).
+  (c) Notice of award. A written notice of award or acceptance of an offer furnished to the successful Offeror within the time for acceptance specified in the offer, shall result in a binding contract without further action by either party. Before the offer's specified expiration time, the Government may accept an offer (or part of an offer), whether or not there are negotiations after its receipt, unless a written notice of withdrawal is received before award.
+(End of Provision)
+E.5  52.216-1 TYPE OF CONTRACT (NOV 2025) (DEVIATION)
+  The Government contemplates award of a Firm-Fixed-Price contract resulting from this solicitation.
+(End of Provision)
+E.6  52.233-2  SERVICE OF PROTEST  (SEP 2006)
+  Protests, as defined in section 33.101 of the Federal Acquisition Regulation, that are filed directly with an agency, and copies of any protests that are filed with the Government Accountability Office (GAO), shall be served on the Contracting Officer (addressed as follows) by obtaining written and dated acknowledgment of receipt from:
+     Hand-Carried Address:
+     NCO 20 Network Contracting Office
+     ATTN: V4CONT
+     1601 E. Fourth Plain Blvd
+     Bldg.17, Suite B428
+     Vancouver WA  98661
+     Mailing Address:
+     NCO 20 Network Contracting Office
+     ATTN: V4CONT
+     1601 E. Fourth Plain Blvd
+     Bldg.17, Suite B428
+     Vancouver WA  98661
+  (b) The copy of any protest shall be received in the office designated above within one day of filing a protest with the GAO.
+(End of Provision)
+SUBJECT* | Admin management, Data Management, Software development Quality Assurance Inspection Software for EMS Base Plus 4 1/01/2027 - 12/31/2031
+CONTRACTING OFFICE’S ZIP CODE* | 98661
+SOLICITATION NUMBER* | 36C26026Q1017
+RESPONSE DATE/TIME/ZONE | 10-13-2026 5pm PACIFIC TIME, LOS ANGELES, USA
+ARCHIVE | DAYS AFTER THE RESPONSE DATE
+RECOVERY ACT FUNDS | N
+SET-ASIDE | 
+PRODUCT SERVICE CODE* | 
+NAICS CODE* | 541519
+CONTRACTING OFFICE ADDRESS | Network Contracting Office 20 
+ATTN: V4CONT 
+1601 E. Fourth Plain Blvd 
+Bldg.17, Suite B428
+Vancouver WA  98661
+POINT OF CONTACT* | Contracting Specialist 
+Tyrone Whalen
+Tyrone.Whalen@va.gov
+ADDRESS | Portland VA Medical Center
+ | 3710 NW US Veterans Hospital Road
+
+
+ | Portland OR
+POSTAL CODE | 97239
+COUNTRY | United States
+AGENCY’S URL | 
+URL DESCRIPTION | 
+AGENCY CONTACT’S EMAIL ADDRESS | 
+EMAIL DESCRIPTION | 
+[X] | 52.232-33, Payment by Electronic Funds Transfer—System For Award Management, or
+[] | 52.232-36, Payment by Third Party
+ITEM NUMBER | DESCRIPTION OF SUPPLIES/SERVICES | QUANTITY | UNIT | UNIT PRICE | AMOUNT
+0001 |  | 1.00 | YR | __________________
+ | SOFTWARE PACKAGE FOR EMS STAFF TO INCREASE QUALITY OF CLEANING FOR VAPORHCS 
+Contract Period: Base
+POP Begin: 01-01-2027
+POP End: 12-31-2027
+PRINCIPAL NAICS CODE: 541519 - Other Computer Related Services
+PRODUCT/SERVICE CODE: H979 - Other Quality Control, Testing, and Inspection - Cleaning Equipment and Supplies
+1001 |  | 1.00 | YR | __________________
+ | SOFTWARE PACKAGE FOR EMS STAFF TO INCREASE QUALITY OF CLEANING FOR VAPORHCS 
+Contract Period: Option 1
+POP Begin: 01-01-2028
+POP End: 12-31-2028
+PRINCIPAL NAICS CODE: 541519 - Other Computer Related Services
+PRODUCT/SERVICE CODE: H979 - Other Quality Control, Testing, and Inspection - Cleaning Equipment and Supplies
+2001 |  | 1.00 | YR | __________________
+ | SOFTWARE PACKAGE FOR EMS STAFF TO INCREASE QUALITY OF CLEANING FOR VAPORHCS 
+Contract Period: Option 2
+POP Begin: 01-01-2029
+POP End: 12-31-2029
+PRINCIPAL NAICS CODE: 541519 - Other Computer Related Services
+PRODUCT/SERVICE CODE: H979 - Other Quality Control, Testing, and Inspection - Cleaning Equipment and Supplies
+3001 |  | 1.00 | YR | __________________
+ | SOFTWARE PACKAGE FOR EMS STAFF TO INCREASE QUALITY OF CLEANING FOR VAPORHCS 
+Contract Period: Option 3
+POP Begin: 01-01-2030
+POP End: 12-31-2030
+PRINCIPAL NAICS CODE: 541519 - Other Computer Related Services
+PRODUCT/SERVICE CODE: H979 - Other Quality Control, Testing, and Inspection - Cleaning Equipment and Supplies
+4001 |  | 1.00 | YR | __________________
+ | SOFTWARE PACKAGE FOR EMS STAFF TO INCREASE QUALITY OF CLEANING FOR VAPORHCS 
+Contract Period: Option 4
+POP Begin: 01-01-2031
+POP End: 12-31-2031
+PRINCIPAL NAICS CODE: 541519 - Other Computer Related Services
+PRODUCT/SERVICE CODE: H979 - Other Quality Control, Testing, and Inspection - Cleaning Equipment and Supplies
+ | GRAND TOTAL | __________________
+FAR Number | Title | Date
+52.203-6 | RESTRICTIONS ON SUBCONTRACTOR SALES TO THE GOVERNMENT | JUN 2020
+52.203-16 | PREVENTING PERSONAL CONFLICTS OF INTEREST | JUN 2020
+52.203-17 | CONTRACTOR EMPLOYEE WHISTLEBLOWER RIGHTS | NOV 2023
+52.203-19 | PROHIBITION ON REQUIRING CERTAIN INTERNAL CONFIDENTIALITY AGREEMENTS OR STATEMENTS | JAN 2017
+52.204-13 | SYSTEM FOR AWARD MANAGEMENT—MAINTENANCE (DEVIATION) | NOV 2025
+52.209-6 | PROTECTING THE GOVERNMENT'S INTEREST WHEN SUBCONTRACTING WITH CONTRACTORS DEBARRED, SUSPENDED, PROPOSED FOR DEBARMENT, OR VOLUNTARILY EXCLUDED | JAN 2025
+52.209-10 | PROHIBITION ON CONTRACTING WITH INVERTED DOMESTIC CORPORATIONS | NOV 2015
+52.219-14 | LIMITATIONS ON SUBCONTRACTING (DEVIATION) | NOV 2025
+52.222-3 | CONVICT LABOR (DEVIATION) | NOV 2025
+52.222-35 | EQUAL OPPORTUNITY FOR VETERANS (DEVIATION) | NOV 2025
+52.222-36 | EQUAL OPPORTUNITY FOR WORKERS WITH DISABILITIES (DEVIATION) | NOV 2025
+52.222-37 | EMPLOYMENT REPORTS ON VETERANS (DEVIATION) | NOV 2025
+52.222-40 | NOTIFICATION OF EMPLOYEE RIGHTS UNDER THE NATIONAL LABOR RELATIONS ACT (DEVIATION) | NOV 2025
+52.222-41 | SERVICE CONTRACT LABOR STANDARDS (DEVIATION) | NOV 2025
+52.222-43 | FAIR LABOR STANDARDS ACT AND SERVICE CONTRACT LABOR STANDARDS-PRICE ADJUSTMENT (MULTIPLE YEAR AND OPTION CONTRACTS) (DEVIATION) | NOV 2025
+52.222-50 | COMBATING TRAFFICKING IN PERSONS (DEVIATION) | NOV 2025
+52.222-54 | EMPLOYMENT ELIGIBILITY VERIFICATION (DEVIATION) | NOV 2025
+52.222-55 | MINIMUM WAGES FOR CONTRACTOR WORKERS UNDER EXECUTIVE ORDER 14026 (DEVIATION) | NOV 2025
+52.222-62 | PAID SICK LEAVE UNDER EXECUTIVE ORDER 13706 (DEVIATION) | NOV 2025
+52.223-5 | POLLUTION PREVENTION AND RIGHT-TO-KNOW INFORMATION | MAY 2024
+52.223-23 | SUSTAINABLE PRODUCTS (DEVIATION) | NOV 2025
+52.226-8 | ENCOURAGING CONTRACTOR POLICIES  TO BAN TEXT MESSAGING WHILE DRIVING | MAY 2024
+52.228-5 | INSURANCE—WORK ON A GOVERNMENT INSTALLATION | JAN 1997
+52.229-3 | FEDERAL, STATE, AND LOCAL TAXES (DEVIATION) | SEP 2025
+52.232-33 | PAYMENT BY ELECTRONIC FUNDS TRANSFER—SYSTEM FOR AWARD MANAGEMENT | OCT 2018
+52.232-40 | PROVIDING ACCELERATED PAYMENTS TO SMALL BUSINESS SUBCONTRACTORS | MAR 2023
+52.233-3 | PROTEST AFTER AWARD | AUG 1996
+52.233-4 | APPLICABLE LAW FOR BREACH OF CONTRACT CLAIM | OCT 2004
+52.237-2 | PROTECTION OF GOVERNMENT BUILDINGS, EQUIPMENT, AND VEGETATION | APR 1984
+52.240-90 | SECURITY PROHIBITIONS AND EXCLUSIONS REPRESENTATIONS AND CERTIFICATIONS (DEVIATION) | NOV 2025
+852.201-70 | CONTRACTING OFFICER'S REPRESENTATIVE | DEC 2022
+852.203-70 | COMMERCIAL ADVERTISING | MAY 2018
+852.211-76 | LIQUIDATED DAMAGES - REIMBURSEMENT FOR DATA BREACH COSTS ALTERNATE I | FEB 2023
+852.219-73 | VA NOTICE OF TOTAL SET-ASIDE FOR CERTIFIED SERVICE-DISABLED VETERAN-OWNED SMALL BUSINESSES (DEVIATION) | JAN 2023
+852.222-71 | COMPLIANCE WITH EXECUTIVE ORDER 13899 (DEVIATION) (APR 2025) | APR 2025
+852.232-72 | ELECTRONIC SUBMISSION OF PAYMENT REQUESTS | NOV 2018
+852.242-71 | ADMINISTRATIVE CONTRACTING OFFICER | OCT 2020
+Employee Class | Monetary Wage-Fringe Benefits
+System Support Specialist | $35.71
+FAR Number | Title | Date
+52.203-11 | CERTIFICATION AND DISCLOSURE REGARDING PAYMENTS TO INFLUENCE CERTAIN FEDERAL TRANSACTIONS | SEP 2024
+52.203-18 | PROHIBITION ON CONTRACTING WITH ENTITIES THAT REQUIRE CERTAIN INTERNAL CONFIDENTIALITY AGREEMENTS OR STATEMENTS—REPRESENTATION | JAN 2017
+52.204-7 | SYSTEM FOR AWARD MANAGEMENT—REGISTRATION (DEVIATION) | NOV 2025
+52.229-11 | TAX ON CERTAIN FOREIGN PROCUREMENTS—NOTICE AND REPRESENTATION | JUN 2020
+852.233-70 | PROTEST CONTENT/ALTERNATIVE DISPUTE RESOLUTION | OCT 2018
+852.233-71 | ALTERNATE PROTEST PROCEDURE | OCT 2018
