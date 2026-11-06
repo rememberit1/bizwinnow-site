@@ -42,3 +42,13 @@ footer .fine{flex-basis:100%;border-top:1px solid rgba(255,255,255,.08);padding-
 @media(max-width:1000px){.grid.s>.card{flex-basis:calc((100% - 24px)/2)}nav a{padding:8px 9px;font-size:.88rem}}
 @media(max-width:860px){.two,.ba{grid-template-columns:1fr}}
 @media(max-width:700px){.grid.s>.card{flex-basis:100%}nav .w{flex-wrap:wrap;gap:8px;padding-bottom:8px}nav .w>div{width:100%;overflow-x:auto;white-space:nowrap;padding-bottom:6px;-webkit-overflow-scrolling:touch;scrollbar-width:none}nav .w>div::-webkit-scrollbar{display:none}nav a{display:inline-block!important;flex:none}.hero.sm{padding:60px 0 56px}.big{font-size:1.9rem}}
+
+/* Preview block: the same room as a still and a depth-based motion sample. */
+.zoom-heading{margin:34px 0 0;color:var(--n);font-size:1.15rem;font-weight:700}
+.zoom figure{position:relative}
+.zoom img,.zoom video{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;background:#191d29}
+.zoom figure:before{display:block;padding:13px 16px;background:var(--n);color:#fff;font-size:.69rem;font-weight:700;letter-spacing:.045em;line-height:1.35}
+.zoom figure:first-child:before{content:'BEFORE - STILL LISTING PHOTO'}
+.zoom figure:last-child:before{content:'AFTER - VIRTUALLY STAGED + 3D ZOOM VIDEO'}
+.zoom video[poster]{cursor:default}
+@media(prefers-reduced-motion:reduce){.zoom video{scroll-behavior:auto}}
