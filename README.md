@@ -1,9 +1,48 @@
-# Business Win Now marketing site
+# Business Win Now (bizwinnow.com)
 
-Source + deploy scripts for bizwinnow.com (GovCon, real estate, staffing, Shopify pages).
+## Overview
 
-**Live:** https://bizwinnow.com
+Marketing site for **Business Win Now**, a Washington, DC services business that sells done-for-you tech and content work to other businesses. The live site is **https://bizwinnow.com**.
 
-**GitHub:** https://github.com/rememberit1/bizwinnow-site
+## Purpose
 
-Uploaded from local workspace after scrubbing secrets, backups, credentials, and oversized media.
+Explain each service, show sample work, list pricing ranges, and drive free-sample requests by email. It is the public face of the company, not an app or dashboard.
+
+## Features / pages
+
+Static pages (built from `pages/*.html`):
+
+| Path | Service |
+|------|---------|
+| `/` | Home — overview of all services |
+| `/govcon` | GovCon RFP compliance matrices and proposal drafting |
+| `/real_estate` | MLS virtual staging and short listing reels |
+| `/staffing` | Candidate shortlists, skill matrices, tailored resumes |
+| `/shopify` | Shopify / DTC checkout and email retention teardowns |
+| `/podcast_and_newsletter` | Podcast / newsletter sponsor and guest matchmaking |
+| `/matrix` (`matrix.html`) | Standalone sample compliance-matrix page |
+
+Each service page covers who it is for, what you get, process, pricing, FAQ, and a mailto CTA for a free sample. Home and service pages share Inter / Plus Jakarta Sans styling via shared CSS.
+
+## Tech stack
+
+- Static HTML + CSS (+ small `main.js`)
+- Python builders: `mkdeploy.py` / `gen.py` / `build.py` assemble pages into a single Cloudflare Worker script (`deploy.js`)
+- Deployed as a Cloudflare Worker / Pages-style deploy artifact (not a Node app)
+
+## Run / deploy
+
+```bash
+# Preview pages locally
+python3 -m http.server 8080
+# open http://localhost:8080/index.html or pages/*.html
+
+# Regenerate the Worker deploy bundle
+python3 mkdeploy.py   # writes deploy.js
+```
+
+Upload / execute `deploy.js` through your Cloudflare account tooling to publish to **bizwinnow.com**.
+
+## License / notes
+
+Independent marketing site. Not affiliated with any government agency.
