@@ -114,7 +114,7 @@ if (shop.status !== 200 || !shopBody.includes('$300') || shopBody.includes('$1,0
 }
 const homePrice = await mod.default.fetch(new Request('https://bizwinnow.com/'));
 const homePriceBody = await homePrice.text();
-if (!homePriceBody.includes('$300&ndash;$1,000')) {
+if (homePriceBody.includes('$300&ndash;$1,000') || !homePriceBody.includes('From $300 setup')) {
   fail('home shopify price changed');
 }
 const re = await mod.default.fetch(new Request('https://bizwinnow.com/real_estate'));
