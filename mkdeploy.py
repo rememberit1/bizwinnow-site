@@ -68,7 +68,7 @@ pdf_names = [
     'newsletter-sponsor-matchmaking-sample',
     'shopify-teardown-sample',
 ]
-imgs = ['re-before-living', 're-after-living', 're-before-bed', 're-after-bed', 're-room-still']
+imgs = ['re-before-bed', 're-after-bed', 're-room-still']
 
 w = 'const PG=' + json.dumps(PG) + ';\n'
 w += 'const NF=' + json.dumps(NF) + ';\n'

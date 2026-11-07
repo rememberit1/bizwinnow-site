@@ -51,9 +51,11 @@ def svc_page(k,eyebrow,lead,who,problem,gets,process,pricing,samples,faqs,ctah,c
     body=hero
     body+='<section><div class="w"><h2>Who it&rsquo;s for, and the problem</h2><div class="two"><div class="card tint"><span class="k">Who it&rsquo;s for</span>%s</div><div class="card tint"><span class="k">The problem</span>%s</div></div></div></section>'%(who,problem)
     body+='<section id="what"><div class="w"><h2>What you get</h2><div class="grid s">%s</div>%s</div></section>'%(cards(gets),extra_mid)
+    sample_block='<section id="sample"><div class="w"><h2>Sample work</h2>%s</div></section>'%samples
+    if k=='real_estate': body+=sample_block
     body+='<section id="process"><div class="w"><h2>How it works</h2>%s</div></section>'%steps(process)
     body+='<section id="pricing"><div class="w"><h2>Pricing</h2>%s</div></section>'%pricing
-    body+='<section id="sample"><div class="w"><h2>Sample work</h2>%s</div></section>'%samples
+    if k!='real_estate': body+=sample_block
     if extra_after: body+=extra_after
     body+='<section id="faq"><div class="w"><h2>Questions</h2>%s</div></section>'%faq(faqs)
     body+=cta(ctah,ctap,s[5])
@@ -94,9 +96,7 @@ re_samples=('<p>These samples are watermarked, and the furnishings are AI-genera
  '<div class="ba zoom"><figure><img src="/assets/re-room-still.jpg" alt="Before: the empty living room as a still listing photo" width="960" height="600"><figcaption>Before: still photo, as listed</figcaption></figure>'
  '<figure><video muted autoplay loop playsinline preload="metadata" width="960" height="600" poster="/assets/re-room-3d-zoom-poster.jpg" aria-label="Eight-second depth-based parallax zoom through the same living room, virtually staged with AI-generated furnishings"><source src="/assets/re-room-3d-zoom.mp4" type="video/mp4">Your browser cannot play this sample; the still photo is shown alongside.</video><figcaption>After: virtually staged + 3D zoom video</figcaption></figure></div>'
  '<p class="cap">The furnishings are AI-generated. The video applies a depth-map camera push-in and parallax motion to the virtually staged photo. The motion is a rendered perspective effect, not a full 3D room scan.</p>'
- '<div class="ba"><figure><img src="/assets/re-before-living.jpg" alt="Living room listing photo before staging: empty room with bare floor" width="1000" height="750"><figcaption>Before: living room, as listed</figcaption></figure>'
- '<figure><img src="/assets/re-after-living.jpg" alt="Same living room after virtual staging with a sofa, rug, coffee table and plants" width="1000" height="750"><figcaption>After: virtually staged</figcaption></figure>'
- '<figure><img src="/assets/re-before-bed.jpg" alt="Bedroom listing photo before staging" width="1000" height="750"><figcaption>Before: bedroom, as listed</figcaption></figure>'
+ '<div class="ba"><figure><img src="/assets/re-before-bed.jpg" alt="Bedroom listing photo before staging" width="1000" height="750"><figcaption>Before: bedroom, as listed</figcaption></figure>'
  '<figure><img src="/assets/re-after-bed.jpg" alt="Same bedroom after virtual staging" width="1000" height="750"><figcaption>After: virtually staged</figcaption></figure></div>'
  '<p class="cap">Sample images start from a public listing photo and are not a client project.</p>'
  +pdfs(('/samples/real-estate-virtual-staging-sample.pdf','Virtual staging PDF')))
