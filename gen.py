@@ -212,7 +212,7 @@ P['/shopify']=svc_page('shopify','For Shopify &amp; DTC brands',
   ('Prioritized fix list','The changes most likely to matter first, so you know where to start.'),
   ('Monthly management','After setup, ongoing management of your flows if you want it.')],
  [('Send your store','Email your store link and forward your welcome and cart emails.'),('Free sample','We send a short teardown of one email so you can judge the depth.'),('Full teardown','The full audit and rewritten copy arrive by email.'),('You implement or we manage','Paste the copy in yourself, or add monthly management.')],
- price1('$300&ndash;$1,000 <span style="font-size:1rem;font-weight:600;color:var(--mu);-webkit-text-fill-color:var(--mu)">setup</span>','<p style="margin:0">Plus monthly management.</p>',
+ price1('$300 <span style="font-size:1rem;font-weight:600;color:var(--mu);-webkit-text-fill-color:var(--mu)">setup</span>','<p style="margin:0">Plus monthly management.</p>',
   ul(['Setup covers the teardown and the rewritten copy.','Monthly management is optional and quoted separately.','The first sample is free.'])),
  '<p>An example store teardown showing how findings and rewritten copy are presented.</p>'+pdfs(('/samples/shopify-teardown-sample.pdf','Store teardown PDF')),
  [('Which email platform do you work with?','The copy is written to be pasted into whichever platform you use. Tell us which one when you write.'),
@@ -220,7 +220,7 @@ P['/shopify']=svc_page('shopify','For Shopify &amp; DTC brands',
   ('Is monthly management required?','No. Setup stands alone, and monthly management is an optional add-on.'),
   ('What does the sample cover?','A short teardown of one of your emails, so you can judge the depth before you commit.')],
  'Send us your store','Send your store link and one email and we will return a free sample teardown.',
- 'Email and product page teardowns for Shopify and DTC brands, with paste-ready rewritten copy. From $300 to $1,000 setup plus optional monthly management.')
+ 'Email and product page teardowns for Shopify and DTC brands, with paste-ready rewritten copy. From $300 setup plus optional monthly management.')
 
 # ---------- 404
 P['404']=page('Page not found | Business Win Now','Page not found.','',

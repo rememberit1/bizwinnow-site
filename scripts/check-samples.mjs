@@ -109,8 +109,13 @@ for (const p of paths) {
 
 const shop = await mod.default.fetch(new Request('https://bizwinnow.com/shopify'));
 const shopBody = await shop.text();
-if (shop.status !== 200 || !shopBody.includes('$300') || !shopBody.includes('$1,000')) {
+if (shop.status !== 200 || !shopBody.includes('$300') || shopBody.includes('$1,000') || !shopBody.includes('Plus monthly management.')) {
   fail('shopify price changed');
+}
+const homePrice = await mod.default.fetch(new Request('https://bizwinnow.com/'));
+const homePriceBody = await homePrice.text();
+if (!homePriceBody.includes('$300&ndash;$1,000')) {
+  fail('home shopify price changed');
 }
 const re = await mod.default.fetch(new Request('https://bizwinnow.com/real_estate'));
 const reBody = await re.text();
