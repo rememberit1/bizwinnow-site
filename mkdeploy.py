@@ -6,12 +6,26 @@ finish if any path in samples/sent-paths.txt is missing, so a later edit
 cannot drop an emailed sample by replacing a short dict of "current" slugs.
 """
 import base64, json, sys
+from io import BytesIO
 from pathlib import Path
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parent
+# Upload path rejects a request over 4 MB. Stay under 3.5 MB decimal.
+MAX_DEPLOY_BYTES = 3_500_000
 
 def b64(path):
     return base64.b64encode(Path(path).read_bytes()).decode()
+
+def b64_image(path, max_width, quality):
+    """WebP for the bundle. Same URL as the source file; the worker sets image/webp."""
+    im = Image.open(path).convert('RGB')
+    if im.width > max_width:
+        height = max(1, round(im.height * max_width / im.width))
+        im = im.resize((max_width, height), Image.Resampling.LANCZOS)
+    buf = BytesIO()
+    im.save(buf, 'WEBP', quality=quality, method=6)
+    return base64.b64encode(buf.getvalue()).decode()
 
 pages = {
     '/': 'home',
@@ -28,8 +42,10 @@ for folder, prefix in (('govcon', '/govcon/samples/'), ('real_estate', '/real_es
     for path in sorted((ROOT / 'samples' / 'html' / folder).glob('*.html')):
         PG[prefix + path.stem] = path.read_text()
 
-MI = {p.stem: b64(p) for p in sorted((ROOT / 'samples' / 'img' / 'govcon').glob('*.png'))}
-RI = {p.stem: b64(p) for p in sorted((ROOT / 'samples' / 'img' / 'real_estate').glob('*.jpg'))}
+# Matrix screenshots are 2325px wide and shown in a ~1152px column.
+# Photos are shown at most ~1200px wide. WebP at these sizes matches that layout.
+MI = {p.stem: b64_image(p, 1400, 78) for p in sorted((ROOT / 'samples' / 'img' / 'govcon').glob('*.png'))}
+RI = {p.stem: b64_image(p, 1200, 67) for p in sorted((ROOT / 'samples' / 'img' / 'real_estate').glob('*.jpg'))}
 
 required = [ln.strip() for ln in (ROOT / 'samples' / 'sent-paths.txt').read_text().splitlines() if ln.strip()]
 missing = [p for p in required if p not in PG]
@@ -61,8 +77,8 @@ w += 'const X=' + json.dumps(b64(ROOT / 'sample-compliance-matrix.xlsx')) + ';\n
 w += 'const S={' + ','.join(json.dumps(n) + ':' + json.dumps(b64(ROOT / 'samples' / 'pdfs' / f'{n}.pdf')) for n in pdf_names) + '};\n'
 w += 'const MI={' + ','.join(json.dumps(k) + ':' + json.dumps(v) for k, v in MI.items()) + '};\n'
 w += 'const RI={' + ','.join(json.dumps(k) + ':' + json.dumps(v) for k, v in RI.items()) + '};\n'
-w += 'const I={' + ','.join(json.dumps(n) + ':' + json.dumps(b64(ROOT / 'assets' / f'{n}.jpg')) for n in imgs) + '};\n'
-w += 'const MP0=' + json.dumps(b64(ROOT / 'assets' / 're-room-3d-zoom-poster.jpg')) + ';\n'
+w += 'const I={' + ','.join(json.dumps(n) + ':' + json.dumps(b64_image(ROOT / 'assets' / f'{n}.jpg', 1200, 67)) for n in imgs) + '};\n'
+w += 'const MP0=' + json.dumps(b64_image(ROOT / 'assets' / 're-room-3d-zoom-poster.jpg', 1200, 67)) + ';\n'
 w += 'const MV=' + json.dumps(b64(ROOT / 'assets' / 're-room-3d-zoom.mp4')) + ';\n'
 w += r"""function b(s){const r=atob(s),u=new Uint8Array(r.length);for(let i=0;i<r.length;i++)u[i]=r.charCodeAt(i);return u}
 const HT={'content-type':'text/html; charset=utf-8'};
@@ -74,13 +90,13 @@ if(p==='/sample-compliance-matrix.xlsx')return new Response(b(X),{headers:{'cont
 let m=p.match(/^\/samples\/([a-z0-9-]+)\.pdf$/);
 if(m&&S[m[1]])return new Response(b(S[m[1]]),{headers:{'content-type':'application/pdf','content-disposition':'inline; filename="'+m[1]+'.pdf"'}});
 m=p.match(/^\/assets\/([a-z0-9-]+)\.jpg$/);
-if(m&&I[m[1]])return new Response(b(I[m[1]]),{headers:{'content-type':'image/jpeg','cache-control':'public, max-age=86400'}});
-if(p==='/assets/re-room-3d-zoom-poster.jpg')return new Response(b(MP0),{headers:{'content-type':'image/jpeg','cache-control':'public, max-age=86400'}});
+if(m&&I[m[1]])return new Response(b(I[m[1]]),{headers:{'content-type':'image/webp','cache-control':'public, max-age=86400'}});
+if(p==='/assets/re-room-3d-zoom-poster.jpg')return new Response(b(MP0),{headers:{'content-type':'image/webp','cache-control':'public, max-age=86400'}});
 if(p==='/assets/re-room-3d-zoom.mp4')return new Response(b(MV),{headers:{'content-type':'video/mp4','cache-control':'public, max-age=86400','accept-ranges':'bytes'}});
 m=p.match(/^\/govcon\/samples\/([A-Za-z0-9-]+)\.png$/);
-if(m&&MI[m[1]])return new Response(b(MI[m[1]]),{headers:{'content-type':'image/png','x-robots-tag':'noindex','cache-control':'public, max-age=3600'}});
+if(m&&MI[m[1]])return new Response(b(MI[m[1]]),{headers:{'content-type':'image/webp','x-robots-tag':'noindex','cache-control':'public, max-age=3600'}});
 m=p.match(/^\/real_estate\/samples\/([a-z0-9]+)\.jpg$/);
-if(m&&RI[m[1]])return new Response(b(RI[m[1]]),{headers:{'content-type':'image/jpeg','x-robots-tag':'noindex','cache-control':'public, max-age=3600'}});
+if(m&&RI[m[1]])return new Response(b(RI[m[1]]),{headers:{'content-type':'image/webp','x-robots-tag':'noindex','cache-control':'public, max-age=3600'}});
 if((p.startsWith('/govcon/samples/')||p.startsWith('/real_estate/samples/'))&&PG[p])return new Response(PG[p],{headers:{...HT,'x-robots-tag':'noindex, nofollow'}});
 if(Object.prototype.hasOwnProperty.call(PG,p))return new Response(PG[p],{headers:HT});
 return new Response(NF,{status:404,headers:HT})}};
@@ -94,5 +110,9 @@ const body=['--'+b,'Content-Disposition: form-data; name="metadata"','Content-Ty
 const r=await cloudflare.request({method:'PUT',path:`/accounts/${acc}/workers/scripts/businesswinnow`,body,contentType:'multipart/form-data; boundary='+b,rawBody:true});
 const s=await cloudflare.request({method:'POST',path:`/accounts/${acc}/workers/scripts/businesswinnow/subdomain`,body:{enabled:true}});
 return {ok:r.success,sub:s.success}; }""" % json.dumps(w)
-(ROOT / 'deploy.js').write_text(code)
-print('worker', len(w), 'deploy.js', len(code), 'pages', len(PG), 'png', len(MI), 'jpg', len(RI))
+out = ROOT / 'deploy.js'
+out.write_text(code)
+size = out.stat().st_size
+print('worker', len(w), 'deploy.js', size, 'pages', len(PG), 'png', len(MI), 'jpg', len(RI))
+if size >= MAX_DEPLOY_BYTES:
+    sys.exit('deploy.js is %d bytes; the upload cap needs it under %d' % (size, MAX_DEPLOY_BYTES))

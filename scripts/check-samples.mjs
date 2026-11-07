@@ -7,7 +7,13 @@ import path from 'path';
 import { pathToFileURL } from 'url';
 
 const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
-const deploy = fs.readFileSync(path.join(root, 'deploy.js'), 'utf8');
+const deployPath = path.join(root, 'deploy.js');
+const deployBytes = fs.statSync(deployPath).size;
+if (deployBytes >= 3_500_000) {
+  console.error('deploy.js is ' + deployBytes + ' bytes; must be under 3500000');
+  process.exit(1);
+}
+const deploy = fs.readFileSync(deployPath, 'utf8');
 const start = deploy.indexOf('const W=');
 if (start < 0) {
   console.error('deploy.js has no worker string');
@@ -72,20 +78,29 @@ for (const p of paths) {
     fail('govcon page has neither a matrix image nor a table ' + p);
     continue;
   }
+  function isImage(bytes) {
+    if (bytes.length < 12) return false;
+    if (bytes[0] === 0xff && bytes[1] === 0xd8) return true;
+    if (bytes[0] === 0x89 && bytes[1] === 0x50 && bytes[2] === 0x4e && bytes[3] === 0x47) return true;
+    const head = String.fromCharCode(...bytes.slice(0, 4));
+    const webp = String.fromCharCode(...bytes.slice(8, 12));
+    return head === 'RIFF' && webp === 'WEBP';
+  }
   if (!gov) {
     const img = await mod.default.fetch(new Request('https://bizwinnow.com' + asset));
     const bytes = new Uint8Array(await img.arrayBuffer());
-    if (img.status !== 200 || bytes[0] !== 0xff || bytes[1] !== 0xd8) {
-      fail('listing jpeg ' + asset + ' status ' + img.status);
+    const type = img.headers.get('content-type') || '';
+    if (img.status !== 200 || !type.startsWith('image/') || !isImage(bytes)) {
+      fail('listing image ' + asset + ' status ' + img.status);
       continue;
     }
   }
   if (gov && body.includes('/govcon/samples/' + slug + '.png')) {
     const img = await mod.default.fetch(new Request('https://bizwinnow.com' + asset));
     const bytes = new Uint8Array(await img.arrayBuffer());
-    const png = bytes[0] === 0x89 && bytes[1] === 0x50 && bytes[2] === 0x4e && bytes[3] === 0x47;
-    if (img.status !== 200 || !png) {
-      fail('matrix png ' + asset + ' status ' + img.status);
+    const type = img.headers.get('content-type') || '';
+    if (img.status !== 200 || !type.startsWith('image/') || !isImage(bytes)) {
+      fail('matrix image ' + asset + ' status ' + img.status);
       continue;
     }
   }
