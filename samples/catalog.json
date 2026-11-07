@@ -1,0 +1,187 @@
+[
+  {
+    "path": "/govcon/samples/apg-atc-cyber-rmf-W91CRB27BA001",
+    "kind": "rebuilt",
+    "source": "Page shell restored from mkdeploy.py.bak1105 (git f634ec8). Matrix table rebuilt Nov 7, 2026 from the public SAM.gov notice because the original matrix image was not in any saved bundle."
+  },
+  {
+    "path": "/govcon/samples/dha-wrnmmc-hospital-comms-HT001426QE048",
+    "kind": "original",
+    "source": "Recovered original HTML and PNG from deploy-matrix.js (Oct 29 worker bundle)."
+  },
+  {
+    "path": "/govcon/samples/dla-dscr-smoke-test-SP470327Q0003",
+    "kind": "rebuilt",
+    "source": "Page shell restored from mkdeploy.py.bak1105 (git f634ec8). Matrix table rebuilt Nov 7, 2026 from the public SAM.gov notice because the original matrix image was not in any saved bundle."
+  },
+  {
+    "path": "/govcon/samples/doi-udall-garage-drywall-140D0427Q0949",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker (live Nov 5\u20136 samples)."
+  },
+  {
+    "path": "/govcon/samples/dot-graphic-design-693JK427R500001",
+    "kind": "original",
+    "source": "Recovered original HTML and PNG from deploy-matrix.js (Oct 29 worker bundle)."
+  },
+  {
+    "path": "/govcon/samples/eousa-als-court-reporting-15JA0527Q00000006",
+    "kind": "rebuilt",
+    "source": "Page shell restored from mkdeploy.py.bak1105 (git f634ec8). Matrix table rebuilt Nov 7, 2026 from the public SAM.gov notice because the original matrix image was not in any saved bundle."
+  },
+  {
+    "path": "/govcon/samples/eousa-mdga-court-reporting-15JA0527Q00000009",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker (live Nov 5\u20136 samples)."
+  },
+  {
+    "path": "/govcon/samples/eousa-wyoming-court-reporting-15JA0527Q00000004",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker (live Nov 5\u20136 samples)."
+  },
+  {
+    "path": "/govcon/samples/fbi-cjis-window-cleaning-15F06727Q0000010",
+    "kind": "rebuilt",
+    "source": "Page shell restored from mkdeploy.py.bak1105 (git f634ec8). Matrix table rebuilt Nov 7, 2026 from the public SAM.gov notice because the original matrix image was not in any saved bundle."
+  },
+  {
+    "path": "/govcon/samples/fort-bragg-pressure-wash-W91247-27-Q-A001",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker (live Nov 5\u20136 samples)."
+  },
+  {
+    "path": "/govcon/samples/gpo-eeo-services-040ADV27Q0002",
+    "kind": "rebuilt",
+    "source": "Page shell restored from mkdeploy.py.bak1105 (git f634ec8). Matrix table rebuilt Nov 7, 2026 from the public SAM.gov notice because the original matrix image was not in any saved bundle."
+  },
+  {
+    "path": "/govcon/samples/gsa-stelizabeths-gate7-garage-47PB5126R0038",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker (live Nov 5\u20136 samples)."
+  },
+  {
+    "path": "/govcon/samples/loc-creative-exhibit-design-030ADV27R0010",
+    "kind": "rebuilt",
+    "source": "Page shell restored from mkdeploy.py.bak1105 (git f634ec8). Matrix table rebuilt Nov 7, 2026 from the public SAM.gov notice because the original matrix image was not in any saved bundle."
+  },
+  {
+    "path": "/govcon/samples/nara-artifact-coordinator-88310327Q00012",
+    "kind": "rebuilt",
+    "source": "Page shell restored from mkdeploy.py.bak1105 (git f634ec8). Matrix table rebuilt Nov 7, 2026 from the public SAM.gov notice because the original matrix image was not in any saved bundle."
+  },
+  {
+    "path": "/govcon/samples/navfac-earle-pest-N4008527R0009",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker (live Nov 5\u20136 samples)."
+  },
+  {
+    "path": "/govcon/samples/nca-salisbury-turf-36C78627Q0021",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker (live Nov 5\u20136 samples)."
+  },
+  {
+    "path": "/govcon/samples/treasury-g7-events-2099AB27Q00003",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker (live Nov 5\u20136 samples)."
+  },
+  {
+    "path": "/govcon/samples/uscg-academy-ballfield-70ZH1526QCGA00003",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker (live Nov 5\u20136 samples)."
+  },
+  {
+    "path": "/govcon/samples/uscg-cape-charles-sewage-70ZL1927QELIZ0002",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker (live Nov 5\u20136 samples)."
+  },
+  {
+    "path": "/govcon/samples/ushmm-bollards-95476727Q1104",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker (live Nov 5\u20136 samples)."
+  },
+  {
+    "path": "/govcon/samples/usmc-edcom-it-support-M0026427R0001",
+    "kind": "original",
+    "source": "Recovered original HTML and PNG from deploy-matrix.js (Oct 29 worker bundle)."
+  },
+  {
+    "path": "/govcon/samples/va-bedford-window-wash-36C24127Q0017",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker (live Nov 5\u20136 samples)."
+  },
+  {
+    "path": "/govcon/samples/va-nca-richmond-janitorial-36C78627Q0023",
+    "kind": "rebuilt",
+    "source": "Page shell restored from mkdeploy.py.bak1105 (git f634ec8). Matrix table rebuilt Nov 7, 2026 from the public SAM.gov notice because the original matrix image was not in any saved bundle."
+  },
+  {
+    "path": "/govcon/samples/va-richmond-loading-dock-36C24626Q1099",
+    "kind": "rebuilt",
+    "source": "Page shell restored from mkdeploy.py.bak1105 (git f634ec8). Matrix table rebuilt Nov 7, 2026 from the public SAM.gov notice because the original matrix image was not in any saved bundle."
+  },
+  {
+    "path": "/real_estate/samples/16th",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker."
+  },
+  {
+    "path": "/real_estate/samples/5thst",
+    "kind": "rebuilt",
+    "source": "Page copy restored from mkdeploy.py.bak1105 (git f634ec8). Before/after JPEG rebuilt Nov 7, 2026 from the current public listing photo because the original preview file was not in any saved bundle."
+  },
+  {
+    "path": "/real_estate/samples/blacksnake4204",
+    "kind": "rebuilt",
+    "source": "Page copy restored from mkdeploy.py.bak1105 (git f634ec8). Before/after JPEG rebuilt Nov 7, 2026 from the current public listing photo because the original preview file was not in any saved bundle."
+  },
+  {
+    "path": "/real_estate/samples/brandywine",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker."
+  },
+  {
+    "path": "/real_estate/samples/crain",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker."
+  },
+  {
+    "path": "/real_estate/samples/cumberland5319",
+    "kind": "rebuilt",
+    "source": "Page copy restored from mkdeploy.py.bak1105 (git f634ec8). Before/after JPEG rebuilt Nov 7, 2026 from the current public listing photo because the original preview file was not in any saved bundle."
+  },
+  {
+    "path": "/real_estate/samples/eastern601",
+    "kind": "rebuilt",
+    "source": "Page copy restored from mkdeploy.py.bak1105 (git f634ec8). Before/after JPEG rebuilt Nov 7, 2026 from the current public listing photo because the original preview file was not in any saved bundle."
+  },
+  {
+    "path": "/real_estate/samples/gault4039",
+    "kind": "rebuilt",
+    "source": "Page copy restored from mkdeploy.py.bak1105 (git f634ec8). Before/after JPEG rebuilt Nov 7, 2026 from the current public listing photo because the original preview file was not in any saved bundle."
+  },
+  {
+    "path": "/real_estate/samples/minnesota",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker."
+  },
+  {
+    "path": "/real_estate/samples/nicholson14",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker."
+  },
+  {
+    "path": "/real_estate/samples/nova1630",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker."
+  },
+  {
+    "path": "/real_estate/samples/toledo418",
+    "kind": "rebuilt",
+    "source": "Page copy restored from mkdeploy.py.bak1105 (git f634ec8). Before/after JPEG rebuilt Nov 7, 2026 from the current public listing photo because the original preview file was not in any saved bundle."
+  },
+  {
+    "path": "/real_estate/samples/villagegreen1732",
+    "kind": "preserved",
+    "source": "Preserved from the current deploy.js worker."
+  }
+]

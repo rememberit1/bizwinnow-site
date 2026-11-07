@@ -39,9 +39,12 @@ python3 -m http.server 8080
 
 # Regenerate the Worker deploy bundle
 python3 mkdeploy.py   # writes deploy.js
+
+# Confirm all 36 emailed sample paths are in that bundle
+node scripts/check-samples.mjs
 ```
 
-Upload / execute `deploy.js` through your Cloudflare account tooling to publish to **bizwinnow.com**.
+`mkdeploy.py` includes every HTML file under `samples/html/` and refuses to write `deploy.js` if any path in `samples/sent-paths.txt` is missing. Upload / execute `deploy.js` through your Cloudflare account tooling to publish to **bizwinnow.com**.
 
 ## License / notes
 
