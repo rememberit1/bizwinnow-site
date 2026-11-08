@@ -5,6 +5,16 @@
     "source": "Page shell restored from mkdeploy.py.bak1105 (git f634ec8). Matrix table rebuilt Nov 7, 2026 from the public SAM.gov notice because the original matrix image was not in any saved bundle."
   },
   {
+    "path": "/govcon/samples/askew-richmond-36c78627q0023",
+    "kind": "original",
+    "source": "Nov 8, 2026 publish archive (PUBLISH_MANIFEST.json). Permanent noindex per-prospect sample."
+  },
+  {
+    "path": "/govcon/samples/consolidated-richmond-36c78627q0023",
+    "kind": "original",
+    "source": "Nov 8, 2026 publish archive (PUBLISH_MANIFEST.json). Permanent noindex per-prospect sample."
+  },
+  {
     "path": "/govcon/samples/dha-wrnmmc-hospital-comms-HT001426QE048",
     "kind": "original",
     "source": "Recovered original HTML and PNG from deploy-matrix.js (Oct 29 worker bundle)."
@@ -23,6 +33,11 @@
     "path": "/govcon/samples/dot-graphic-design-693JK427R500001",
     "kind": "original",
     "source": "Recovered original HTML and PNG from deploy-matrix.js (Oct 29 worker bundle)."
+  },
+  {
+    "path": "/govcon/samples/dr-williams-richmond-36c78627q0023",
+    "kind": "original",
+    "source": "Nov 8, 2026 publish archive (PUBLISH_MANIFEST.json). Permanent noindex per-prospect sample."
   },
   {
     "path": "/govcon/samples/eousa-als-court-reporting-15JA0527Q00000006",
@@ -60,6 +75,11 @@
     "source": "Preserved from the current deploy.js worker (live Nov 5\u20136 samples)."
   },
   {
+    "path": "/govcon/samples/iamdunn-richmond-36c78627q0023",
+    "kind": "original",
+    "source": "Nov 8, 2026 publish archive (PUBLISH_MANIFEST.json). Permanent noindex per-prospect sample."
+  },
+  {
     "path": "/govcon/samples/loc-creative-exhibit-design-030ADV27R0010",
     "kind": "rebuilt",
     "source": "Page shell restored from mkdeploy.py.bak1105 (git f634ec8). Matrix table rebuilt Nov 7, 2026 from the public SAM.gov notice because the original matrix image was not in any saved bundle."
@@ -78,6 +98,11 @@
     "path": "/govcon/samples/nca-salisbury-turf-36C78627Q0021",
     "kind": "preserved",
     "source": "Preserved from the current deploy.js worker (live Nov 5\u20136 samples)."
+  },
+  {
+    "path": "/govcon/samples/sandsenterprise-richmond-36c78627q0023",
+    "kind": "original",
+    "source": "Nov 8, 2026 publish archive (PUBLISH_MANIFEST.json). Permanent noindex per-prospect sample."
   },
   {
     "path": "/govcon/samples/treasury-g7-events-2099AB27Q00003",
@@ -108,6 +133,11 @@
     "path": "/govcon/samples/va-bedford-window-wash-36C24127Q0017",
     "kind": "preserved",
     "source": "Preserved from the current deploy.js worker (live Nov 5\u20136 samples)."
+  },
+  {
+    "path": "/govcon/samples/va-management-richmond-36c78627q0023",
+    "kind": "original",
+    "source": "Nov 8, 2026 publish archive (PUBLISH_MANIFEST.json). Permanent noindex per-prospect sample."
   },
   {
     "path": "/govcon/samples/va-nca-richmond-janitorial-36C78627Q0023",
@@ -158,6 +188,16 @@
     "path": "/real_estate/samples/gault4039",
     "kind": "rebuilt",
     "source": "Page copy restored from mkdeploy.py.bak1105 (git f634ec8). Before/after JPEG rebuilt Nov 7, 2026 from the current public listing photo because the original preview file was not in any saved bundle."
+  },
+  {
+    "path": "/real_estate/samples/kyra-agarwal-4968-quebec-kitchen",
+    "kind": "original",
+    "source": "Nov 8, 2026 publish archive (PUBLISH_MANIFEST.json). Permanent noindex per-prospect sample."
+  },
+  {
+    "path": "/real_estate/samples/michael-rankin-1243-34th-kitchen",
+    "kind": "original",
+    "source": "Nov 8, 2026 publish archive (PUBLISH_MANIFEST.json). Permanent noindex per-prospect sample."
   },
   {
     "path": "/real_estate/samples/minnesota",

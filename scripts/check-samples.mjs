@@ -48,8 +48,24 @@ fs.writeFileSync(file, worker);
 const mod = await import(pathToFileURL(file).href);
 const paths = fs.readFileSync(path.join(root, 'samples', 'sent-paths.txt'), 'utf8')
   .split('\n').map((s) => s.trim()).filter(Boolean);
-if (paths.length !== 36) {
-  console.error('expected 36 sent paths, found ' + paths.length);
+const permanent = [
+  '/govcon/samples/dr-williams-richmond-36c78627q0023',
+  '/govcon/samples/askew-richmond-36c78627q0023',
+  '/govcon/samples/sandsenterprise-richmond-36c78627q0023',
+  '/govcon/samples/va-management-richmond-36c78627q0023',
+  '/govcon/samples/iamdunn-richmond-36c78627q0023',
+  '/govcon/samples/consolidated-richmond-36c78627q0023',
+  '/real_estate/samples/michael-rankin-1243-34th-kitchen',
+  '/real_estate/samples/kyra-agarwal-4968-quebec-kitchen',
+];
+for (const p of permanent) {
+  if (!paths.includes(p)) {
+    console.error('permanent sample missing from sent-paths: ' + p);
+    process.exit(1);
+  }
+}
+if (paths.length !== 44) {
+  console.error('expected 44 sent paths, found ' + paths.length);
   process.exit(1);
 }
 
@@ -67,8 +83,11 @@ for (const p of paths) {
     continue;
   }
   const gov = p.startsWith('/govcon/');
-  const title = gov ? 'Sample compliance matrix' : 'Free photo edit preview';
-  if (!body.includes(title) || !body.includes('Business Win Now')) {
+  const known = body.includes('Sample compliance matrix')
+    || body.includes('Free photo edit preview')
+    || body.includes('Compliance Preview')
+    || body.includes('Before / After');
+  if (!known || !body.includes('Business Win Now') || !body.includes('noindex')) {
     fail('unexpected body ' + p);
     continue;
   }
@@ -86,7 +105,7 @@ for (const p of paths) {
     const webp = String.fromCharCode(...bytes.slice(8, 12));
     return head === 'RIFF' && webp === 'WEBP';
   }
-  if (!gov) {
+  if (!gov && body.includes(asset)) {
     const img = await mod.default.fetch(new Request('https://bizwinnow.com' + asset));
     const bytes = new Uint8Array(await img.arrayBuffer());
     const type = img.headers.get('content-type') || '';
@@ -94,6 +113,10 @@ for (const p of paths) {
       fail('listing image ' + asset + ' status ' + img.status);
       continue;
     }
+  }
+  if (!gov && !body.includes(asset) && !body.includes('data:image')) {
+    fail('listing page has no image ' + p);
+    continue;
   }
   if (gov && body.includes('/govcon/samples/' + slug + '.png')) {
     const img = await mod.default.fetch(new Request('https://bizwinnow.com' + asset));
@@ -132,4 +155,4 @@ if (failed) {
   console.error(failed + ' check(s) failed');
   process.exit(1);
 }
-console.log('all 36 emailed sample paths are in this bundle');
+console.log('all ' + paths.length + ' permanent sample paths are in this bundle');

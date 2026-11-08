@@ -54,12 +54,15 @@ if missing:
 for path in required:
     slug = path.rsplit('/', 1)[1]
     html = PG[path]
-    if path.startswith('/real_estate/samples/') and slug not in RI:
-        sys.exit('refusing to build; listing image missing for ' + path)
     if f'/govcon/samples/{slug}.png' in html and slug not in MI:
         sys.exit('refusing to build; matrix PNG missing for ' + path)
-    if f'/real_estate/samples/{slug}.jpg' in html and slug not in RI:
-        sys.exit('refusing to build; listing image missing for ' + path)
+    if path.startswith('/real_estate/samples/'):
+        external = f'/real_estate/samples/{slug}.jpg' in html
+        inline = 'data:image' in html
+        if external and slug not in RI:
+            sys.exit('refusing to build; listing image missing for ' + path)
+        if not external and not inline:
+            sys.exit('refusing to build; listing sample has no image for ' + path)
 
 pdf_names = [
     'govcon-draft-technical-approach',
