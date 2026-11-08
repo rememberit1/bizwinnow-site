@@ -18,7 +18,7 @@ SV=[ # key,title,who,price html,short blurb,mail subject
 ('real_estate','MLS Virtual Staging &amp; Listing Reels','Real estate agents and brokerages','From $99&ndash;$249 per listing pack<br><span style="font-weight:400;font-size:.9rem">Monthly brokerage retainer available.</span>','Furnished-looking listing photos and a short vertical reel, delivered as one pack.','Free sample: MLS virtual staging'),
 ('staffing','Candidate Shortlists &amp; Resume Tailoring','Boutique tech staffing agencies','From $300&ndash;$500 per shortlist<br><span style="font-weight:400;font-size:.9rem">Or a monthly sourcing seat.</span>','Three matched candidates per open req, with resumes tailored to the job.','Free sample: candidate shortlist'),
 ('podcast_and_newsletter','Podcast &amp; Newsletter Sponsor / Guest Matchmaking','B2B creators, podcast hosts, newsletter writers and founders','20&ndash;30% commission on sponsorship deals<br><span style="font-weight:400;font-size:.9rem">Or $1,000&ndash;$2,500/mo for guest booking.</span>','Sponsors and guest spots found, pitched and packaged with a media kit.','Free sample: sponsor or guest matchmaking'),
-('shopify','Checkout &amp; Email Retention Teardowns','Shopify and DTC brands','From $300&ndash;$1,000 setup<br><span style="font-weight:400;font-size:.9rem">Plus monthly management.</span>','A teardown of your emails and product pages, with copy ready to paste in.','Free sample: email retention teardown'),
+('shopify','Checkout &amp; Email Retention Teardowns','Shopify and DTC brands','From $300 setup<br><span style="font-weight:400;font-size:.9rem">Plus monthly management.</span>','A teardown of your emails and product pages, with copy ready to paste in.','Free sample: email retention teardown'),
 ]
 SVD={s[0]:s for s in SV}
 NAVL=[('govcon','GovCon'),('real_estate','Real estate'),('staffing','Staffing'),('podcast_and_newsletter','Podcast &amp; newsletter'),('shopify','Shopify')]
@@ -51,9 +51,11 @@ def svc_page(k,eyebrow,lead,who,problem,gets,process,pricing,samples,faqs,ctah,c
     body=hero
     body+='<section><div class="w"><h2>Who it&rsquo;s for, and the problem</h2><div class="two"><div class="card tint"><span class="k">Who it&rsquo;s for</span>%s</div><div class="card tint"><span class="k">The problem</span>%s</div></div></div></section>'%(who,problem)
     body+='<section id="what"><div class="w"><h2>What you get</h2><div class="grid s">%s</div>%s</div></section>'%(cards(gets),extra_mid)
+    sample_block='<section id="sample"><div class="w"><h2>Sample work</h2>%s</div></section>'%samples
+    if k=='real_estate': body+=sample_block
     body+='<section id="process"><div class="w"><h2>How it works</h2>%s</div></section>'%steps(process)
     body+='<section id="pricing"><div class="w"><h2>Pricing</h2>%s</div></section>'%pricing
-    body+='<section id="sample"><div class="w"><h2>Sample work</h2>%s</div></section>'%samples
+    if k!='real_estate': body+=sample_block
     if extra_after: body+=extra_after
     body+='<section id="faq"><div class="w"><h2>Questions</h2>%s</div></section>'%faq(faqs)
     body+=cta(ctah,ctap,s[5])
@@ -94,9 +96,7 @@ re_samples=('<p>These samples are watermarked, and the furnishings are AI-genera
  '<div class="ba zoom"><figure><img src="/assets/re-room-still.jpg" alt="Before: the empty living room as a still listing photo" width="960" height="600"><figcaption>Before: still photo, as listed</figcaption></figure>'
  '<figure><video muted autoplay loop playsinline preload="metadata" width="960" height="600" poster="/assets/re-room-3d-zoom-poster.jpg" aria-label="Eight-second depth-based parallax zoom through the same living room, virtually staged with AI-generated furnishings"><source src="/assets/re-room-3d-zoom.mp4" type="video/mp4">Your browser cannot play this sample; the still photo is shown alongside.</video><figcaption>After: virtually staged + 3D zoom video</figcaption></figure></div>'
  '<p class="cap">The furnishings are AI-generated. The video applies a depth-map camera push-in and parallax motion to the virtually staged photo. The motion is a rendered perspective effect, not a full 3D room scan.</p>'
- '<div class="ba"><figure><img src="/assets/re-before-living.jpg" alt="Living room listing photo before staging: empty room with bare floor" width="1000" height="750"><figcaption>Before: living room, as listed</figcaption></figure>'
- '<figure><img src="/assets/re-after-living.jpg" alt="Same living room after virtual staging with a sofa, rug, coffee table and plants" width="1000" height="750"><figcaption>After: virtually staged</figcaption></figure>'
- '<figure><img src="/assets/re-before-bed.jpg" alt="Bedroom listing photo before staging" width="1000" height="750"><figcaption>Before: bedroom, as listed</figcaption></figure>'
+ '<div class="ba"><figure><img src="/assets/re-before-bed.jpg" alt="Bedroom listing photo before staging" width="1000" height="750"><figcaption>Before: bedroom, as listed</figcaption></figure>'
  '<figure><img src="/assets/re-after-bed.jpg" alt="Same bedroom after virtual staging" width="1000" height="750"><figcaption>After: virtually staged</figcaption></figure></div>'
  '<p class="cap">Sample images start from a public listing photo and are not a client project.</p>'
  +pdfs(('/samples/real-estate-virtual-staging-sample.pdf','Virtual staging PDF')))
@@ -212,7 +212,7 @@ P['/shopify']=svc_page('shopify','For Shopify &amp; DTC brands',
   ('Prioritized fix list','The changes most likely to matter first, so you know where to start.'),
   ('Monthly management','After setup, ongoing management of your flows if you want it.')],
  [('Send your store','Email your store link and forward your welcome and cart emails.'),('Free sample','We send a short teardown of one email so you can judge the depth.'),('Full teardown','The full audit and rewritten copy arrive by email.'),('You implement or we manage','Paste the copy in yourself, or add monthly management.')],
- price1('$300&ndash;$1,000 <span style="font-size:1rem;font-weight:600;color:var(--mu);-webkit-text-fill-color:var(--mu)">setup</span>','<p style="margin:0">Plus monthly management.</p>',
+ price1('$300 <span style="font-size:1rem;font-weight:600;color:var(--mu);-webkit-text-fill-color:var(--mu)">setup</span>','<p style="margin:0">Plus monthly management.</p>',
   ul(['Setup covers the teardown and the rewritten copy.','Monthly management is optional and quoted separately.','The first sample is free.'])),
  '<p>An example store teardown showing how findings and rewritten copy are presented.</p>'+pdfs(('/samples/shopify-teardown-sample.pdf','Store teardown PDF')),
  [('Which email platform do you work with?','The copy is written to be pasted into whichever platform you use. Tell us which one when you write.'),
@@ -220,7 +220,7 @@ P['/shopify']=svc_page('shopify','For Shopify &amp; DTC brands',
   ('Is monthly management required?','No. Setup stands alone, and monthly management is an optional add-on.'),
   ('What does the sample cover?','A short teardown of one of your emails, so you can judge the depth before you commit.')],
  'Send us your store','Send your store link and one email and we will return a free sample teardown.',
- 'Email and product page teardowns for Shopify and DTC brands, with paste-ready rewritten copy. From $300 to $1,000 setup plus optional monthly management.')
+ 'Email and product page teardowns for Shopify and DTC brands, with paste-ready rewritten copy. From $300 setup plus optional monthly management.')
 
 # ---------- 404
 P['404']=page('Page not found | Business Win Now','Page not found.','',
